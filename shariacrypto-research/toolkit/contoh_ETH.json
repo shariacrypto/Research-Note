@@ -1,0 +1,3155 @@
+{
+ "meta": {
+  "title": "Shariacrypto Research Note — Ethereum (ETH) — Okt 2026",
+  "header_line": "Ethereum (ETH) · data 24 Sep 2026 · contoh format Metodologi v3.1"
+ },
+ "disclaimers": {
+  "A": "Shariacrypto Research Note adalah produk riset internal. Bukan fatwa dan bukan saran investasi. Status syariah memakai 4-Layer Framework Shariacrypto dan perlu ditinjau ulama yang kompeten. Data dari sumber publik (<span data-ed=\"1\">CoinGecko, DefiLlama, Token Terminal, rwa.xyz</span>). Angka bertanda (est.) adalah perkiraan analis.",
+  "B": "Dokumen ini untuk edukasi dan riset internal Shariacrypto. BUKAN saran investasi. BUKAN fatwa. Status syariah adalah hasil analisis mandiri; konsultasikan dengan Dewan Syariah yang kompeten sebelum mengambil keputusan.",
+  "EXEC": "Dokumen ini untuk edukasi dan riset internal Shariacrypto. BUKAN saran investasi. Status syariah adalah hasil analisis mandiri, bukan fatwa. Label Sesuai Syariah/Halal Bersyarat tidak sama dengan investasi yang bagus. Data harga per <span data-ed=\"1\">±17.00 WIB 24 Sep 2026</span>; fee 12 bulan per ±1 Okt; arus ETF s.d. 30 Sep; data tokenisasi 9 Okt. Istilah teknis dijelaskan di glosarium (hal. 11)."
+ },
+ "pages": [
+  {
+   "disclaimer": "EXEC",
+   "exec": {
+    "dateline": "Data 24 Sep · arus ETF s.d. 30 Sep · <span style=\"color: var(--gold-500);\">Metodologi v3.1 · contoh format</span>",
+    "name": "Ethereum",
+    "subtitle": "ETH · Aset Besar · Jalur Syariah · L1 smart contract · #2",
+    "chips": [
+     {
+      "t": "Fundamental: Cukup · 6,6",
+      "c": "warning",
+      "dot": true
+     },
+     {
+      "t": "Harga: Murah · rasio 2,5×",
+      "c": "green",
+      "dot": true
+     },
+     {
+      "t": "Syariah: Sesuai · 80",
+      "c": "green"
+     },
+     {
+      "t": "Beli Saat Turun · keyakinan sedang",
+      "c": "green"
+     }
+    ],
+    "target": {
+     "price": "$3.400",
+     "ret": "+26,5% dari $2.687,85",
+     "bear": "Pesimis $1.700",
+     "mid": "Perkiraan ±$3.225",
+     "bull": "Optimis $5.500",
+     "label": "TARGET 12 BULAN · SKENARIO DASAR"
+    },
+    "left": [
+     {
+      "type": "h9",
+      "num": "1.1",
+      "title": "TESIS INVESTASI"
+     },
+     {
+      "type": "thesis",
+      "rows": [
+       [
+        "INTI",
+        "ETH adalah “bahan bakar” dan jaminan keamanan jaringan yang paling banyak dipakai untuk stablecoin dan aset tokenisasi. Pembeli besarnya institusi; kelemahannya, pendapatan jaringan sedang turun."
+       ],
+       [
+        "KENAPA SEKARANG",
+        "Harga 46% di bawah puncak $4.946, ETH di bursa paling sedikit dalam beberapa tahun (14,88 jt), dan ETF menyerap +$707 jt pada 21–28 Sep. Penghambatnya: suku bunga AS masih tinggi dan BitMine hampir selesai membeli."
+       ],
+       [
+        "BISA SALAH BILA",
+        "Pendapatan jaringan terus turun dan nilai tokenisasi di Ethereum berhenti tumbuh, sementara ETF berbalik mencatat arus keluar. Bila itu terjadi bersamaan, tesis ini gugur."
+       ]
+      ]
+     },
+     {
+      "type": "h9",
+      "num": "1.2",
+      "title": "PENDORONG SINGKAT",
+      "mt": 10
+     },
+     {
+      "type": "srows",
+      "rows": [
+       {
+        "tag": "P1",
+        "title": "Tokenisasi aset oleh institusi",
+        "body": "nilai aset di Ethereum naik dari $173,7 M ke ≥$230 M, dan porsi Ethereum di pasar RWA tetap ≥45%. Pantau: rasio MC ÷ nilai diamankan (kini 1,89×).",
+        "right": "Peluang 40%<br>2027"
+       },
+       {
+        "tag": "P2",
+        "title": "ETH kembali deflasi",
+        "body": "ETH yang dibakar harus naik dari ±100 menjadi ≥3.000 per hari, atau jumlah ETH baru dikurangi lewat EIP-8361. Pantau: perubahan suplai 30 hari.",
+        "right": "10% (12 bln)<br>25% (36 bln)"
+       },
+       {
+        "tag": "P3",
+        "title": "Arus masuk ETF &amp; perusahaan",
+        "body": "kepemilikan ETF + perusahaan naik dari 11,3% ke ≥13% suplai, menyerap ≥1,5× ETH baru. Pantau: arus ETF mingguan, mNAV, cadangan bursa.",
+        "right": "Peluang 50%<br>Q4-26–2027"
+       }
+      ]
+     },
+     {
+      "type": "h9",
+      "num": "1.3",
+      "title": "RINGKASAN SKENARIO",
+      "mt": 10
+     },
+     {
+      "type": "scen",
+      "label": "HARGA MURAH · RASIO ±2,5×",
+      "right": "Harga Perkiraan ±$3.225 (+20%)",
+      "rows": [
+       {
+        "name": "Optimis",
+        "color": "green",
+        "prob": "20%",
+        "target": "$5.500",
+        "ret": "+104,6%",
+        "basis": "Skenario optimis BTC × beta + alfa dari P1 dan P3"
+       },
+       {
+        "name": "Dasar",
+        "color": "info",
+        "prob": "45%",
+        "target": "$3.400",
+        "ret": "+26,5%",
+        "basis": "Skenario dasar BTC × beta + alfa dari P1"
+       },
+       {
+        "name": "Pesimis",
+        "color": "red",
+        "prob": "35%",
+        "target": "$1.700",
+        "ret": "−36,8%",
+        "basis": "Skenario pesimis BTC × beta + alfa dari R1"
+       }
+      ],
+      "note": "Peluang mengikuti Pandangan Pasar Bulanan; target = harga kini × (1 + beta × return BTC + alfa). Rasio untung-rugi = potensi naik ($883) ÷ potensi turun ($346). Angka contoh berasal dari metodologi lama."
+     },
+     {
+      "type": "h9",
+      "num": "1.4",
+      "title": "PERKIRAAN HARGA ETH 2030",
+      "mt": 10,
+      "right": "bukan target 12 bulan"
+     },
+     {
+      "type": "tiles",
+      "items": [
+       {
+        "label": "MCKINSEY · $2 T",
+        "value": "$4.600–9.200"
+       },
+       {
+        "label": "MODERAT · $3,5 T",
+        "value": "$8.000–16.000"
+       },
+       {
+        "label": "CITI · $5,5 T",
+        "value": "$12.600–25.200"
+       }
+      ]
+     },
+     {
+      "type": "note",
+      "html": "Rasio MC ÷ nilai diamankan 0,5–1,0×; porsi Ethereum 58%; suplai ±126,5 jt ETH (est.)."
+     }
+    ],
+    "right": [
+     {
+      "type": "h9",
+      "title": "METRIK UTAMA",
+      "mb": 2
+     },
+     {
+      "type": "kv",
+      "rows": [
+       [
+        "Harga",
+        "$2.687,85",
+        "green"
+       ],
+       [
+        "Market cap",
+        "$328,13 M"
+       ],
+       [
+        "Dari puncak $4.946",
+        "−46%",
+        "warning"
+       ],
+       [
+        "Fee 12 bulan",
+        "$202,7 jt"
+       ],
+       [
+        "P/S (MC ÷ fee)",
+        "±1.620×",
+        "warning"
+       ],
+       [
+        "ETH dibakar/hari",
+        "±100 ETH",
+        "green"
+       ],
+       [
+        "ETH baru/hari",
+        "±3.000 ETH",
+        "warning"
+       ],
+       [
+        "Inflasi bersih",
+        "±0,9%/th",
+        "warning"
+       ],
+       [
+        "Di-stake",
+        "43,1 jt (35,3%)"
+       ],
+       [
+        "Nilai diamankan",
+        "$173,7 M"
+       ],
+       [
+        "MC ÷ nilai diamankan",
+        "1,89×"
+       ],
+       [
+        "ETF + perusahaan",
+        "±13,8 jt (11,3%)"
+       ],
+       [
+        "Cadangan bursa",
+        "14,88 jt (12,2%)",
+        "green"
+       ],
+       [
+        "Fundamental",
+        "6,6 · Cukup",
+        "warning"
+       ]
+      ]
+     },
+     {
+      "type": "h9",
+      "title": "TARGET 12 BULAN · DUA CARA HITUNG",
+      "mb": 6,
+      "mt": 12
+     },
+     {
+      "type": "tgt",
+      "heads": [
+       "P/S",
+       "MC÷NILAI",
+       "PELUANG"
+      ],
+      "rows": [
+       {
+        "name": "OPTIMIS",
+        "color": "green",
+        "price": "$5.500",
+        "ret": "+104,6%",
+        "vals": [
+         "±3.310×",
+         "3,86×",
+         "20%"
+        ]
+       },
+       {
+        "name": "DASAR",
+        "color": "info",
+        "price": "$3.400",
+        "ret": "+26,5%",
+        "vals": [
+         "±2.050×",
+         "2,39×",
+         "45%"
+        ]
+       },
+       {
+        "name": "PESIMIS",
+        "color": "red",
+        "price": "$1.700",
+        "ret": "−36,8%",
+        "vals": [
+         "±1.030×",
+         "1,20×",
+         "35%"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "note",
+      "html": "MC tersirat = target × 122,08 jt ETH. P/S memakai fee 12 bulan $202,7 jt; MC÷nilai memakai $173,7 M."
+     },
+     {
+      "type": "h9",
+      "title": "ARUS ETF TERBARU",
+      "mb": 2,
+      "mt": 12
+     },
+     {
+      "type": "kv",
+      "rows": [
+       [
+        "21–28 Sep",
+        "+$707 jt (±263rb ETH)",
+        "green"
+       ],
+       [
+        "29–30 Sep",
+        "−$62 jt",
+        "red"
+       ]
+      ]
+     }
+    ],
+    "ticker": "ETH",
+    "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAACBFBMVEUAAADv7//09PTy8vXx9Pbz9Pjy9ffy9fjy9Pfx9Pfy9Pby9Pfx8/Xz8/Py8vTx9Pjv7/fy9Pfy9Pfy9ffz9ffy8/b09vjy9fXz9Pb09/ry9Pjz9fnv7/Tv9PTk5uiCg4Ssra9jZGWQkpTIycw7PDza296QkZIvMDBgYWK6vL21t7lHSUnm6OqEhojNz9Ly9PSztLednqB4envBw8Xv8vWen6Hv8/NsbW7x8/bP0NOpqqyJiovz8/dUVVXv7++lpqjy8/jz9Pbx9PZ9fn9bXF01NjYdHh4sLCw5Ojo0NTUwMTETExNucHBISElgYWE+Pz9zdHUaGhomJyfv7/oWFxckJSUtLi7x8vV4eXpRUlMhISHx8/Z1d3fy9PdnaGlERkaEhYZ6fHxrbW1AQUGDhYVWV1cqKipERUVOT1BcXV6LjI1iY2QyMzNMTU7Fx8lLTU2Sk5ba3N+HiIpKS0zW2Nt7fH4vLy+6vL6rrK6ChIXk5umfoKJYWVpXWVmQkpPd3+GTlJaXmJnOz9Lm5+qFhoepq6y6u77r7fB1dneRkpQ7PT2EhoeQkZPIysxISUnW2NrW19uztLa3uLqXmJp4enpTVVVvcHKsrrBmZ2g8PT2eoKJsbm+en6A9PT7v8/dsbm7BwsXd3+KEhYfx8/fy9fbP0dPx9Pjx8/bv8veJiozy9fnv8vQEFD2BAAAArHRSTlMAEDBQcI+fr7/f7/+AQGDPIJ9g33+vb1CPX+9/MDD//////////////////////2D/////UP9A/5D///9A/xD/r8/P/////////////////////zD///+g////sP/f/////////////////////////////////////////////////////////////////////////////////////0D/////gK//cO9g/1BgIk4dsgAACKdJREFUeNrM1YV1wEAMA9BjsMJOGfYfszBA0YnyJ5De6fmcPR9iyqW23gWfpPfWypBi8O7afEi5Cb4gLafxouGnPOOH5hyXa4Ufc8cvzWu8SvrUBH9Tt4U/nIZ/aZt3PGMW/JusI206MKIbIf4uMKTr4s60ZIG1EyssKwwYVGCMh19hFxxI09GHU3EwjUeu5wYGeDu6FRig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"
+   }
+  },
+  {
+   "label": "Business highlight - holder",
+   "subtitle": "Business highlight: pemegang &amp; institusi",
+   "blocks": [
+    {
+     "type": "bigsec",
+     "num": "2",
+     "title": "Business Highlight",
+     "mt": 20
+    },
+    {
+     "type": "text",
+     "html": "Siapa yang memegang ETH, bagaimana kepemilikannya berubah, dan bagaimana jaringan ini menghasilkan serta membagikan nilai.",
+     "muted": true,
+     "mb": 4
+    },
+    {
+     "type": "sub",
+     "num": "2.1",
+     "title": "SIAPA PEMEGANG ETH &amp; PERUBAHANNYA"
+    },
+    {
+     "type": "table",
+     "cols": "118px 80px minmax(0px,1fr) minmax(0px,1fr) minmax(0px,1fr) 150px",
+     "header": [
+      "KATEGORI",
+      "KINI",
+      "±3 BULAN",
+      "±6 BULAN",
+      "±12 BULAN",
+      "STATUS"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Di-stake",
+        "c": "white"
+       },
+       {
+        "n": "43,1 jt",
+        "c": "body",
+        "s": "35,3%"
+       },
+       {
+        "n": "+2,1 jt",
+        "c": "green",
+        "s": "vs 41,0 jt · 27 Jul"
+       },
+       {
+        "n": "+6,8 jt",
+        "c": "green",
+        "s": "vs ±36,3 jt · akhir Q1 (est.)"
+       },
+       {
+        "n": "N/A",
+        "c": "muted"
+       },
+       {
+        "dot": "green",
+        "t": "Rekor baru; antrean masuk ±2,4 jt"
+       }
+      ],
+      [
+       {
+        "t": "Bursa",
+        "c": "white"
+       },
+       {
+        "n": "14,88 jt",
+        "c": "body",
+        "s": "12,2%"
+       },
+       {
+        "n": "−0,2 jt",
+        "c": "green",
+        "s": "vs 15,1 jt · 23 Jul"
+       },
+       {
+        "n": "−1,3 jt",
+        "c": "green",
+        "s": "vs 16,2 jt · Jan"
+       },
+       {
+        "n": "−6,42 jt",
+        "c": "green",
+        "s": "vs 21,3 jt · Jul-2025"
+       },
+       {
+        "dot": "green",
+        "t": "Terendah dalam beberapa tahun"
+       }
+      ],
+      [
+       {
+        "t": "ETF spot",
+        "c": "white"
+       },
+       {
+        "n": "±5,8 jt",
+        "c": "body",
+        "s": "4,7%"
+       },
+       {
+        "n": "+0,6 jt",
+        "c": "green",
+        "s": "vs 5,19 jt · Jun"
+       },
+       {
+        "n": "−0,35 jt",
+        "c": "red",
+        "s": "vs 6,14 jt · awal 2026"
+       },
+       {
+        "n": "−1,0 jt",
+        "c": "red",
+        "s": "vs 6,81 jt · Okt-2025"
+       },
+       {
+        "dot": "gold",
+        "t": "Pulih: +$2,35 M sejak Juli"
+       }
+      ],
+      [
+       {
+        "t": "Perusahaan (treasury)",
+        "c": "white"
+       },
+       {
+        "n": "8,01 jt",
+        "c": "body",
+        "s": "6,56%"
+       },
+       {
+        "n": "+1,3 jt",
+        "c": "green",
+        "s": "vs 6,7 jt · 16 Mei"
+       },
+       {
+        "n": "idem",
+        "c": "muted",
+        "s": "data terdekat: Mei"
+       },
+       {
+        "n": "+2,35 jt",
+        "c": "green",
+        "s": "vs 5,66 jt · Okt-2025"
+       },
+       {
+        "dot": "green",
+        "t": "Naik, tetapi lajunya melambat"
+       }
+      ],
+      [
+       "<span style=\"color: var(--text-muted);\">– BitMine</span>",
+       {
+        "n": "6,0 jt",
+        "c": "body",
+        "s": "4,9%"
+       },
+       {
+        "n": "+0,33 jt",
+        "c": "green",
+        "s": "vs 5,67 jt · 21 Jun"
+       },
+       {
+        "n": "N/A",
+        "c": "muted"
+       },
+       {
+        "n": "N/A",
+        "c": "muted"
+       },
+       {
+        "dot": "gold",
+        "t": "Hampir capai target 5%"
+       }
+      ],
+      [
+       {
+        "t": "Ethereum Foundation",
+        "c": "white"
+       },
+       {
+        "n": "±82.500",
+        "c": "body",
+        "s": "0,07%"
+       },
+       {
+        "n": "N/A",
+        "c": "muted"
+       },
+       {
+        "n": "N/A",
+        "c": "muted"
+       },
+       {
+        "n": "N/A",
+        "c": "muted"
+       },
+       {
+        "dot": "orange",
+        "t": "Rutin menjual untuk biaya operasional"
+       }
+      ],
+      [
+       {
+        "t": "ETF + perusahaan",
+        "c": "white"
+       },
+       {
+        "n": "±13,8 jt",
+        "c": "white",
+        "b": true,
+        "s": "11,3%"
+       },
+       "",
+       "",
+       {
+        "n": "+1,3 jt",
+        "c": "green",
+        "s": "vs 12,48 jt (10,3%)"
+       },
+       {
+        "dot": "green",
+        "t": "Institusi pegang &gt;1/9 suplai"
+       }
+      ]
+     ],
+     "hl": [
+      6
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Data tidak selalu tersedia tepat 3, 6, atau 12 bulan lalu, jadi dipakai tanggal terdekat (tertulis di tiap sel). Warna status: <span style=\"color: var(--success-solid);\">●</span> positif · <span style=\"color: var(--gold-500);\">●</span> perlu dipantau · <span style=\"color: var(--warning-solid);\">●</span> tekanan jual.",
+     "size": 9,
+     "muted": true,
+     "mt": 6
+    },
+    {
+     "type": "card",
+     "label": "RINGKASAN",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "ETH pindah dari <strong style=\"color: var(--white);\">bursa</strong> ke <strong style=\"color: var(--white);\">staking dan institusi</strong>. Dalam 12 bulan, ETH di bursa berkurang 6,42 jt, sementara ETF dan perusahaan menambah 1,3 jt dan staking mencetak rekor. Makin sedikit ETH siap jual, makin besar pengaruh pembeli baru. Risikonya ada pada <strong style=\"color: var(--white);\">pemusatan</strong>: BitMine sendiri memegang 11,5% dari semua ETH yang di-stake, dan pembeliannya hampir selesai (lihat R2)."
+      }
+     ],
+     "mt": 8
+    },
+    {
+     "type": "sub",
+     "num": "2.2",
+     "title": "DUKUNGAN INSTITUSI",
+     "mt": 16
+    },
+    {
+     "type": "table",
+     "cols": "128px 80px 96px 56px minmax(0px,1fr)",
+     "header": [
+      "PEMEGANG",
+      "JENIS",
+      "KEPEMILIKAN",
+      "UNLOCK",
+      "CATATAN"
+     ],
+     "rows": [
+      [
+       {
+        "t": "BitMine",
+        "c": "white"
+       },
+       "Perusahaan",
+       {
+        "n": "6,0 jt ETH",
+        "c": "body"
+       },
+       "Tidak ada",
+       "5,06 jt di-stake (11,5% dari semua ETH yang di-stake); sebagian dana dari saham preferen berdividen 9,5%"
+      ],
+      [
+       {
+        "t": "ETF spot (gabungan)",
+        "c": "white"
+       },
+       "ETF",
+       {
+        "n": "±5,8 jt ETH",
+        "c": "body"
+       },
+       "Tidak ada",
+       "Dana kelolaan ±$15,6 M; arus bersih kembali positif sejak Juli"
+      ],
+      [
+       {
+        "t": "BlackRock ETHB",
+        "c": "white"
+       },
+       "ETF staking",
+       {
+        "n": "N/A",
+        "c": "body"
+       },
+       "Tidak ada",
+       "ETF staking pertama di AS (Mar-2026); 80–90% asetnya di-stake"
+      ],
+      [
+       {
+        "t": "Lido",
+        "c": "white"
+       },
+       "Staking",
+       {
+        "n": "21,18% stake",
+        "c": "body"
+       },
+       "Tidak ada",
+       "Penyedia staking terbesar; risiko terlalu terpusat"
+      ],
+      [
+       {
+        "t": "Coinbase",
+        "c": "white"
+       },
+       "Staking",
+       {
+        "n": "10,9% stake",
+        "c": "body"
+       },
+       "Tidak ada",
+       "Kustodian utama ETF; layanan staking institusi &amp; ritel"
+      ],
+      [
+       {
+        "t": "Ethereum Foundation",
+        "c": "white"
+       },
+       "Yayasan",
+       {
+        "n": "±82.500 ETH",
+        "c": "body"
+       },
+       "Tidak ada",
+       "Rutin menjual; tekanan jualnya kecil tetapi terus-menerus"
+      ]
+     ]
+    },
+    {
+     "type": "card",
+     "label": "PEMUSATAN STAKING (% DARI SEMUA ETH YANG DI-STAKE)",
+     "blocks": [
+      {
+       "type": "grid",
+       "cols": "repeat(3, minmax(0px,1fr))",
+       "gap": 14,
+       "mt": 4,
+       "items": [
+        {
+         "type": "bars",
+         "max": 100,
+         "rows": [
+          {
+           "label": "Lido",
+           "value": 21.18,
+           "display": "21,18%"
+          }
+         ]
+        },
+        {
+         "type": "bars",
+         "max": 100,
+         "rows": [
+          {
+           "label": "BitMine",
+           "value": 11.5,
+           "display": "11,5%"
+          }
+         ]
+        },
+        {
+         "type": "bars",
+         "max": 100,
+         "rows": [
+          {
+           "label": "Coinbase",
+           "value": 10.9,
+           "display": "10,9%"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Tiga pihak ini menguasai ±43,6% stake. Batas yang perlu diwaspadai adalah 33% (bisa mengganggu finalitas) dan 50%."
+      }
+     ],
+     "mt": 8
+    }
+   ]
+  },
+  {
+   "label": "Business highlight - revenue",
+   "subtitle": "Business highlight: pendapatan &amp; biaya",
+   "blocks": [
+    {
+     "type": "sub",
+     "num": "2.3",
+     "title": "DARI MANA ETHEREUM MENDAPAT UANG",
+     "mt": 14,
+     "right": "DefiLlama · ±1 Okt 2026"
+    },
+    {
+     "type": "text",
+     "html": "Ethereum “menyewakan” ruang di setiap blok, dan pengguna membayarnya dengan ETH. Ada empat aliran pendapatan:",
+     "mb": 8
+    },
+    {
+     "type": "table",
+     "cols": "128px 92px 120px minmax(0px,1fr)",
+     "header": [
+      "ALIRAN",
+      "12 BULAN",
+      "MENGALIR KE",
+      "PENGGERAK UTAMA"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Base fee + blob fee",
+        "c": "white",
+        "s": "dibakar"
+       },
+       {
+        "n": "$63,0 jt",
+        "c": "white",
+        "b": true,
+        "s": "31%"
+       },
+       "Semua pemegang, lewat pembakaran",
+       "Permintaan ruang blok L1 (batas gas 60 jt → 200 jt) dan blob L2 (baru terpakai 20–30%)"
+      ],
+      [
+       {
+        "t": "Priority fee",
+        "c": "white",
+        "s": "tip"
+       },
+       {
+        "n": "$139,7 jt",
+        "c": "white",
+        "b": true,
+        "s": "69%"
+       },
+       "Validator",
+       "Transaksi yang ingin cepat masuk blok (arbitrase, likuidasi)"
+      ],
+      [
+       {
+        "t": "MEV",
+        "c": "white",
+        "s": "tidak termasuk angka fee"
+       },
+       {
+        "n": "N/A",
+        "c": "body",
+        "s": "24 jam: $1,2 jt vs fee $0,64 jt"
+       },
+       "Validator &amp; builder",
+       "Gejolak harga dan volume DEX ($1,38 M/hari)"
+      ],
+      [
+       {
+        "t": "Total fee jaringan",
+        "c": "white"
+       },
+       {
+        "n": "$202,7 jt",
+        "c": "green",
+        "b": true
+       },
+       "",
+       "Aktivitas DEX, stablecoin ($146,3 M), pinjam-meminjam, L2"
+      ]
+     ],
+     "hl": [
+      3
+     ]
+    },
+    {
+     "type": "grid",
+     "items": [
+      {
+       "type": "card",
+       "label": "SIAPA YANG MENIKMATI BIAYA TRANSAKSI",
+       "blocks": [
+        {
+         "type": "split",
+         "segments": [
+          {
+           "label": "Aplikasi $9,02 jt/hari",
+           "value": 95,
+           "color": "dim"
+          },
+          {
+           "label": "Jaringan $0,64 jt/hari (±5%)",
+           "value": 5,
+           "color": "green",
+           "label_color": "green"
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "html": "Dari ±$12,53 jt per hari yang dibayar pengguna, jaringan hanya menerima ±5%; sisanya ke aplikasi.",
+         "mt": 5
+        }
+       ]
+      },
+      {
+       "type": "card",
+       "label": "PERKEMBANGAN TERBARU",
+       "blocks": [
+        {
+         "type": "ul",
+         "items": [
+          "<strong style=\"color: var(--white);\">Q2-2026:</strong> fee $52,5 jt (+31,6% dari Q1); dibakar $17,1 jt (+112% dari Q1, −66% setahun).",
+          "<strong style=\"color: var(--white);\">30 hari terakhir:</strong> fee $15,8 jt; dibakar $4,8 jt."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "sub",
+     "num": "2.4",
+     "title": "STRUKTUR BIAYA &amp; LAPORAN LABA-RUGI (12 BULAN)",
+     "mt": 10
+    },
+    {
+     "type": "grid",
+     "mt": 0,
+     "cols": "minmax(0px,1.25fr) minmax(0px,1fr)",
+     "items": [
+      {
+       "type": "card",
+       "label": "ALIRAN FEE (SANKEY)",
+       "blocks": [
+        {
+         "type": "sankey",
+         "aria": "Sankey fee Ethereum 12 bulan",
+         "source": {
+          "label": "Fee pengguna",
+          "display": "$202,7 jt"
+         },
+         "flows": [
+          {
+           "label": "Validator (tip)",
+           "value": 139.7,
+           "display": "$139,7 jt · 69%",
+           "color": "orange"
+          },
+          {
+           "label": "Dibakar → pemegang",
+           "value": 63.0,
+           "display": "$63,0 jt · 31%",
+           "color": "green",
+           "display_color": "green"
+          }
+         ]
+        },
+        {
+         "type": "note",
+         "html": "Hanya fee; ETH baru (±47× yang dibakar) dipisah."
+        }
+       ],
+       "label_color": "muted"
+      },
+      {
+       "type": "card",
+       "label": "YANG DIBAKAR VS BIAYA KEAMANAN",
+       "blocks": [
+        {
+         "type": "bars",
+         "rows": [
+          {
+           "label": "Dibakar (untuk pemegang)",
+           "value": 63.0,
+           "color": "green",
+           "display": "$63,0 jt"
+          },
+          {
+           "label": "Total fee",
+           "value": 202.7,
+           "color": "blue",
+           "display": "$202,7 jt"
+          },
+          {
+           "label": "ETH baru (biaya keamanan)",
+           "value": 2956.6,
+           "color": "orange",
+           "display": "±$2,96 M (est.)"
+          }
+         ]
+        },
+        {
+         "type": "note",
+         "html": "Skala sama. Batang hijau hampir tak terlihat: sejauh itu jarak ke laba positif."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "mt": 10,
+     "cols": "minmax(0px,1.25fr) 104px minmax(0px,1.2fr)",
+     "header": [
+      "POS",
+      "NILAI",
+      "CATATAN"
+     ],
+     "rows": [
+      [
+       "Fee yang dibayar pengguna",
+       {
+        "n": "$202,7 jt",
+        "c": "white",
+        "b": true
+       },
+       ""
+      ],
+      [
+       "(−) Biaya pendapatan: priority fee ke validator",
+       {
+        "n": "−$139,7 jt",
+        "c": "red"
+       },
+       "Dibayar ke penyedia layanan"
+      ],
+      [
+       {
+        "t": "Pendapatan protokol (dibakar)",
+        "c": "white"
+       },
+       {
+        "n": "$63,0 jt",
+        "c": "green",
+        "b": true
+       },
+       "Dinikmati semua pemegang lewat pembakaran"
+      ],
+      [
+       "(−) Biaya keamanan: ETH baru untuk staker",
+       {
+        "n": "−$2,96 M",
+        "c": "red",
+        "s": "−1,1 jt ETH"
+       },
+       "ESTIMASI pada $2.688; DefiLlama mencatat “incentives $0”"
+      ],
+      [
+       {
+        "t": "Laba (dibakar − ETH baru)",
+        "c": "white"
+       },
+       {
+        "n": "≈ −$2,89 M",
+        "c": "red",
+        "b": true
+       },
+       "Pembakaran hanya menutup ±2% biaya keamanan"
+      ],
+      [
+       "<span style=\"color: var(--text-muted);\">Di luar protokol: Ethereum Foundation</span>",
+       {
+        "n": "N/A",
+        "c": "muted"
+       },
+       "Biaya ekosistem; butuh laporan EF"
+      ]
+     ],
+     "hl": [
+      2
+     ],
+     "align": [
+      "l",
+      "r",
+      "l"
+     ]
+    },
+    {
+     "type": "card",
+     "label": "YANG PERLU DIINGAT PEMBACA",
+     "blocks": [
+      {
+       "type": "ol",
+       "items": [
+        "Ethereum “membayar” keamanannya dengan <strong style=\"color: var(--white);\">mencetak ETH baru ±0,9% per tahun</strong>. Pemegang yang tidak men-stake ikut menanggung biaya ini.",
+        "Staker mendapat ±2,6% dari ETH baru + ±0,1% priority fee + MEV; pemegang biasa hanya menikmati pembakaran $63 jt (<strong style=\"color: var(--white);\">±0,02% dari MC</strong>).",
+        "Laba baru positif jika pembakaran naik ±47× atau ETH baru dikurangi (EIP-8361); dibahas di Pendorong 2."
+       ]
+      }
+     ],
+     "mt": 10
+    }
+   ]
+  },
+  {
+   "label": "Detail pendorong - tokenisasi",
+   "subtitle": "Detail pendorong (1/4): ringkasan &amp; tokenisasi",
+   "blocks": [
+    {
+     "type": "bigsec",
+     "num": "3",
+     "title": "Detail Pendorong"
+    },
+    {
+     "type": "grid",
+     "cols": "repeat(3, minmax(0px,1fr))",
+     "gap": 10,
+     "items": [
+      {
+       "type": "card",
+       "label": "P1 · UTAMA · 40%",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">Tokenisasi aset oleh institusi</strong>"
+        },
+        {
+         "type": "text",
+         "html": "Ukuran: nilai aset ≥$230 M &amp; porsi L1 ≥45% (Q4-2027)",
+         "size": 9.5,
+         "muted": true
+        }
+       ],
+       "accent": "green",
+       "label_color": "green"
+      },
+      {
+       "type": "card",
+       "label": "P2 · SUPLAI · 10% / 25%",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">ETH kembali deflasi</strong>"
+        },
+        {
+         "type": "text",
+         "html": "Ukuran: suplai 30 hari menyusut (12 / 36 bulan)",
+         "size": 9.5,
+         "muted": true
+        }
+       ],
+       "accent": "gold",
+       "label_color": "gold"
+      },
+      {
+       "type": "card",
+       "label": "P3 · PERMINTAAN · 50%",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">Arus ETF &amp; perusahaan</strong>"
+        },
+        {
+         "type": "text",
+         "html": "Ukuran: ETF + perusahaan ≥13% suplai (Q4-2027)",
+         "size": 9.5,
+         "muted": true
+        }
+       ],
+       "accent": "info",
+       "label_color": "info"
+      }
+     ]
+    },
+    {
+     "type": "sub",
+     "num": "3.1",
+     "title": "TOKENISASI DI ETHEREUM DALAM GRAFIK",
+     "mt": 12,
+     "right": "rwa.xyz · 9 Okt 2026"
+    },
+    {
+     "type": "text",
+     "html": "Tokenisasi berarti aset di dunia nyata, seperti dolar, surat utang pemerintah AS, atau emas, dibuatkan versi token di blockchain. Pemilik token berhak atas aset aslinya, tetapi token itu bisa dipindahkan 24 jam dan dipakai di aplikasi keuangan digital. Begini alurnya di Ethereum:"
+    },
+    {
+     "type": "steps",
+     "mt": 8,
+     "items": [
+      {
+       "title": "Aset nyata disimpan",
+       "text": "Dolar, obligasi pemerintah AS, atau emas disimpan di bank/kustodian yang diawasi.",
+       "color": "muted"
+      },
+      {
+       "title": "Token dicetak di Ethereum",
+       "text": "Penerbit (mis. Circle untuk USDC, BlackRock untuk dana BUIDL) mencetak token senilai aset itu.",
+       "color": "info"
+      },
+      {
+       "title": "Token dipakai &amp; berpindah",
+       "text": "Token ditransfer, ditukar di DEX, atau dijadikan jaminan. Setiap transaksi membayar gas dengan ETH.",
+       "color": "gold"
+      },
+      {
+       "title": "ETH ikut dibutuhkan",
+       "text": "Makin besar nilai yang disimpan, makin besar ETH yang dibakar, di-stake untuk keamanan, dan dipegang institusi.",
+       "color": "green"
+      }
+     ]
+    },
+    {
+     "type": "grid",
+     "mt": 12,
+     "cols": "minmax(0px,1.25fr) minmax(0px,1fr)",
+     "items": [
+      {
+       "type": "card",
+       "label": "DI JARINGAN MANA ASET TOKENISASI DISIMPAN?",
+       "blocks": [
+        {
+         "type": "donut",
+         "size": 150,
+         "thick": 24,
+         "center_top": "±50%",
+         "center_bottom": "porsi Ethereum",
+         "aria": "Porsi nilai aset tokenisasi per jaringan, rwa.xyz 9 Okt 2026",
+         "slices": [
+          {
+           "label": "Ethereum",
+           "value": 165.8,
+           "color": "green",
+           "display": "$165,8 M",
+           "share": "49,5%",
+           "bold": true
+          },
+          {
+           "label": "TRON",
+           "value": 92.0,
+           "color": "orange",
+           "display": "$92,0 M",
+           "share": "27,5%"
+          },
+          {
+           "label": "Solana",
+           "value": 19.3,
+           "color": "#6b7280",
+           "display": "$19,3 M",
+           "share": "5,8%"
+          },
+          {
+           "label": "BNB Chain",
+           "value": 18.6,
+           "color": "#8b8fa8",
+           "display": "$18,6 M",
+           "share": "5,6%"
+          },
+          {
+           "label": "HyperEVM",
+           "value": 6.7,
+           "color": "#4b5563",
+           "display": "$6,7 M",
+           "share": "2,0%"
+          },
+          {
+           "label": "Arbitrum (L2)",
+           "value": 5.4,
+           "color": "info",
+           "display": "$5,4 M",
+           "share": "1,6%"
+          },
+          {
+           "label": "Base (L2)",
+           "value": 5.0,
+           "color": "blue",
+           "display": "$5,0 M",
+           "share": "1,5%"
+          },
+          {
+           "label": "Lainnya (est.)",
+           "value": 22.2,
+           "color": "#2a3a32",
+           "display": "±$22,2 M",
+           "share": "±6,6%"
+          }
+         ]
+        },
+        {
+         "type": "note",
+         "html": "Nilai aset yang beredar di tiap jaringan, termasuk stablecoin (kategori “Distributed”). Total ±$335 M dibaca dari grafik rwa.xyz (est.); persentase dihitung dari total itu."
+        }
+       ]
+      },
+      {
+       "type": "card",
+       "label": "APA ARTINYA BAGI ETH",
+       "blocks": [
+        {
+         "type": "ul",
+         "items": [
+          "<strong style=\"color: var(--white);\">Ethereum menyimpan hampir separuh pasar</strong>: $165,8 M, atau 1,8× TRON yang ada di posisi kedua.",
+          "Ditambah dua L2-nya (Arbitrum dan Base), ekosistem Ethereum menyimpan <strong style=\"color: var(--white);\">$176,2 M (±53%)</strong>.",
+          "TRON besar karena USDT untuk transfer murah. Ethereum lebih banyak dipakai untuk dana institusi dan DeFi.",
+          "Angka ini naik ±1,4% dari $173,7 M (24 Sep). Untuk mencapai target P1 ($230 M), masih perlu naik <strong style=\"color: var(--white);\">±30%</strong>."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "label": "PERTUMBUHAN ASET TOKENISASI PER JARINGAN, 2018–OKT 2026",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "data:image/jpeg;base64,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",
+       "alt": "Grafik area nilai aset tokenisasi per jaringan dari rwa.xyz",
+       "mt": 4,
+       "caption": "Sumber: rwa.xyz, Network Metrics · Total Value · Distributed, termasuk stablecoin (9 Okt 2026). Satuan “B” = miliar dolar (ditulis “M” di dokumen ini). Warna biru = Ethereum, merah = TRON."
+      },
+      {
+       "type": "text",
+       "html": "<strong style=\"color: var(--white);\">Cara membaca grafik:</strong> total aset tokenisasi naik dari ±$125 M di awal 2024 menjadi ±$335 M sekarang (perkiraan dibaca dari grafik), atau sekitar 2,7×. Lonjakan terbesar terjadi sepanjang 2025. Lapisan biru paling atas (Ethereum) tetap yang terbesar sepanjang waktu, jadi pertumbuhan pasar ini sebagian besar terjadi di Ethereum.",
+       "mt": 6
+      }
+     ],
+     "mt": 10
+    }
+   ]
+  },
+  {
+   "label": "Detail pendorong 1",
+   "subtitle": "Detail pendorong (2/4)",
+   "blocks": [
+    {
+     "type": "spacer",
+     "h": 4
+    },
+    {
+     "type": "dcard",
+     "tag": "PENDORONG 01 — UTAMA · DAMPAK PALING BESAR",
+     "title": "Tokenisasi aset oleh institusi (RWA &amp; stablecoin)",
+     "subtitle": "Ethereum menjadi jalur utama untuk dana, obligasi, dan dolar digital milik institusi",
+     "pills": [
+      {
+       "t": "2027",
+       "c": "warning"
+      },
+      {
+       "t": "PELUANG 40%",
+       "c": "green"
+      }
+     ],
+     "accent": "green",
+     "rows": [
+      {
+       "label": "MEKANISME",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Aset tokenisasi tidak membeli ETH secara langsung. Nilainya sampai ke ETH lewat lima jalur:"
+        },
+        {
+         "type": "ol",
+         "items": [
+          "<strong style=\"color: var(--white);\">Gas &amp; pembakaran.</strong> Setiap pencetakan, transfer, penebusan, dan transaksi DeFi atas token RWA atau stablecoin dibayar dengan ETH, dan base fee-nya dibakar.",
+          "<strong style=\"color: var(--white);\">Anggaran keamanan.</strong> Makin besar nilai yang disimpan di Ethereum, makin besar pula nilai ETH yang harus di-stake agar menyerang jaringan tetap tidak menguntungkan. Pasar cenderung menjaga rasio MC ÷ nilai diamankan (kini 1,89×).",
+          "<strong style=\"color: var(--white);\">Jaminan &amp; likuiditas.</strong> Token RWA dipasangkan dengan ETH di pool DEX dan pasar pinjaman (Aave, Morpho), sehingga kebutuhan memegang ETH ikut naik.",
+          "<strong style=\"color: var(--white);\">Kebutuhan operasional.</strong> Penerbit dan kustodian perlu ETH untuk gas, validator sendiri, dan kas.",
+          "<strong style=\"color: var(--white);\">Penyelesaian di L2.</strong> RWA di Arbitrum, zkSync, dan Base tetap membayar blob fee dan biaya penyelesaian ke L1 dengan ETH."
+         ]
+        },
+        {
+         "type": "note",
+         "html": "Yang bisa membuat dampaknya kecil: token khusus institusi yang jarang berpindah tangan (dana obligasi jarang ditransfer), penyelesaian di luar blockchain, dan perpindahan ke jaringan lain. Karena itu porsi dan aktivitas lebih penting daripada besarnya dana."
+        }
+       ]
+      },
+      {
+       "label": "DAMPAK TERUKUR",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Diukur dari nilai yang diamankan Ethereum (stablecoin + RWA di L1 dan L2), lalu diterjemahkan ke harga dengan rasio yang bisa dicek:"
+        },
+        {
+         "type": "mtab",
+         "cols": "minmax(0px,1.3fr) 76px 92px minmax(0px,1.1fr)",
+         "hl": 2,
+         "header": [
+          "METRIK",
+          "KINI (24 SEP)",
+          "SKENARIO 12 BLN*",
+          "CARA UKUR"
+         ],
+         "rows": [
+          [
+           "Stablecoin di Ethereum",
+           "$146,9 M",
+           "$176–191 M",
+           "DefiLlama Stablecoins"
+          ],
+          [
+           "RWA di Ethereum (L1+L2)",
+           "$26,8 M",
+           "$40–54 M",
+           "Token Terminal / rwa.xyz"
+          ],
+          [
+           "<strong style=\"color: var(--white);\">Nilai diamankan</strong>",
+           "$173,7 M",
+           "$216–245 M",
+           "Jumlah dua baris di atas"
+          ],
+          [
+           "Porsi Ethereum L1 di RWA",
+           "48,4%",
+           "≥45%",
+           "RWA L1 ÷ total RWA"
+          ]
+         ]
+        },
+        {
+         "type": "formula",
+         "html": "Harga tersirat = (MC ÷ nilai diamankan) × nilai diamankan ÷ 122,08 jt ETH<br>Rasio 1,89× &amp; $230 M → MC $435 M → ±$3.560 (+32%) · rasio turun ke 1,5× → ±$2.830 (+5%)"
+        },
+        {
+         "type": "note",
+         "html": "*ESTIMASI: stablecoin +20–30%, RWA ×1,5–2,0. Jika rasionya turun, berarti tokenisasi tumbuh tetapi ETH gagal ikut menikmati nilainya. Data terbaru rwa.xyz (9 Okt): $176,2 M (lihat 3.1)."
+        }
+       ]
+      },
+      {
+       "label": "INDIKATOR PANTAU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">Bulanan:</strong> RWA di Ethereum L1+L2 (sesuai jalur bila naik ≥3,5% per bulan) · stablecoin di Ethereum · porsi L1 ≥45% · rasio MC ÷ nilai diamankan (waspada bila &lt;1,5×) · fee dari aktivitas RWA dan stablecoin. <strong style=\"color: var(--white);\">Per peristiwa:</strong> peluncuran dana tokenisasi oleh manajer aset besar, dan apakah mereka memilih Ethereum atau jaringan lain."
+        }
+       ]
+      },
+      {
+       "label": "PEMICU &amp; WAKTU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Dana dan stablecoin baru dari institusi diterbitkan di Ethereum; token RWA dipakai sebagai jaminan di DeFi; aturan aset tokenisasi makin jelas; Glamsterdam menurunkan biaya transaksi. Paling terasa di 2027, tetapi sebagian sudah terlihat tiap bulan."
+        }
+       ]
+      },
+      {
+       "label": "SUMBER IDE",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Token Terminal (RWA $46 M, 24 Sep); CoinGecko RWA Report 2026 ($5,4 M → $19,3 M, awal 2025 s.d. Q1-2026); rwa.xyz (9 Okt); CryptoDaily (Jun-2026) soal nilai yang tidak sampai ke ETH; McKinsey/Citi (Bagian 4.2)."
+        }
+       ]
+      },
+      {
+       "label": "PELUANG &amp; KEYAKINAN",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">40%</strong>: nilai diamankan ≥$230 M dan porsi L1 ≥45% pada Q4-2027. RWA tumbuh kuat, tetapi stablecoin ikut siklus pasar yang sedang lesu. <strong style=\"color: var(--white);\">Keyakinan: sedang</strong>. Arahnya jelas; seberapa besar ETH ikut menikmati, belum pasti."
+        },
+        {
+         "type": "note",
+         "html": "Catatan syariah: 76% RWA berupa dana obligasi/pasar uang yang berbasis bunga. Jika pendorong ini terwujud dengan komposisi yang sama, skor Layer 3 bisa turun (Bagian 6)."
+        }
+       ]
+      }
+     ],
+     "mt": 12
+    }
+   ]
+  },
+  {
+   "label": "Detail pendorong 2",
+   "subtitle": "Detail pendorong (3/4)",
+   "blocks": [
+    {
+     "type": "dcard",
+     "tag": "PENDORONG 02 — PENDUKUNG · SUPLAI",
+     "title": "ETH kembali menjadi aset deflasi",
+     "subtitle": "Dari inflasi bersih ±0,9% per tahun menjadi suplai yang tidak bertambah",
+     "pills": [
+      {
+       "t": "2027+",
+       "c": "warning"
+      },
+      {
+       "t": "PELUANG 10% · 12 BLN",
+       "c": "gold"
+      }
+     ],
+     "accent": "gold",
+     "mt": 12,
+     "rows": [
+      {
+       "label": "MEKANISME",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Perubahan suplai = ETH baru (imbalan staker) − ETH yang dibakar (base fee + blob fee). ETH baru bertambah mengikuti akar kuadrat jumlah ETH yang di-stake (±169 × √staked per tahun). ETH yang dibakar = gas terpakai × base fee."
+        },
+        {
+         "type": "mtab",
+         "cols": "minmax(0px,1.4fr) 96px 132px",
+         "header": [
+          "KOMPONEN",
+          "KINI",
+          "TITIK IMPAS"
+         ],
+         "rows": [
+          [
+           "ETH baru (43,1 jt di-stake)",
+           "±3.000 ETH/hari",
+           "—"
+          ],
+          [
+           "ETH dibakar",
+           "±100 ETH/hari",
+           "≥3.000 ETH/hari (30×)"
+          ],
+          [
+           "Nilai yang dibakar (harga $2.688)",
+           "±$0,27 jt/hari",
+           "±$8,1 jt/hari (±$2,9 M/th)"
+          ],
+          [
+           "Base fee rata-rata, batas gas 60 jt",
+           "±0,46 gwei*",
+           "±13,9 gwei"
+          ],
+          [
+           "Base fee rata-rata, batas gas 200 jt",
+           "—",
+           "±4,2 gwei"
+          ]
+         ]
+        },
+        {
+         "type": "note",
+         "html": "*Perkiraan: 7.200 blok per hari × pemakaian ±50% batas gas. Asumsi: blob fee kecil dan jumlah stake tetap."
+        },
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">Empat jalan menuju deflasi:</strong>",
+         "mt": 4
+        },
+        {
+         "type": "ol",
+         "items": [
+          "<strong style=\"color: var(--white);\">Permintaan L1 naik.</strong> Setelah Glamsterdam, blok harus terisi rata-rata ±50% dan base fee naik ±9×. Karena kapasitas bertambah, permintaan harus tumbuh lebih cepat dari kapasitas.",
+          "<strong style=\"color: var(--white);\">Blob fee.</strong> Blob baru terpakai 20–30%; pembakaran dari L2 baru berarti jika permintaan melewati target. EIP-7918 sudah memberi harga minimum blob.",
+          "<strong style=\"color: var(--white);\">Mengurangi ETH baru (EIP-8361).</strong> Usulan ini membakar sebagian imbalan staking. Dengan jumlah stake sekarang, imbal hasil turun dari ±2,6% ke ±1,2%. Jika ETH baru berkurang ±50%, pembakaran tetap harus naik ±15×. Usulan ini masih dibahas dan belum dijadwalkan.",
+          "<strong style=\"color: var(--white);\">Arah sebaliknya.</strong> Jika ETH yang di-stake naik ke 50 jt, ETH baru naik ke ±3.270 per hari dan titik impas makin jauh."
+         ]
+        }
+       ]
+      },
+      {
+       "label": "DAMPAK TERUKUR",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Diukur dari perubahan suplai per tahun. Saat ini suplai bertambah <strong style=\"color: var(--white);\">+1,06 jt ETH per tahun</strong> (±0,87%, ±$2,85 M) yang harus diserap pembeli. Jika deflasi, beban itu hilang dan pemegang tidak lagi tergerus. Imbal hasil riil staker (APR − inflasi) naik ±0,9 poin."
+        }
+       ]
+      },
+      {
+       "label": "INDIKATOR PANTAU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Perubahan suplai 30 hari &amp; pembakaran harian (ultrasound.money) · base fee rata-rata dibanding 4,2 gwei setelah Glamsterdam · gas terpakai per hari · jumlah blob dibanding target &amp; blob base fee · total ETH di-stake · status EIP-8361 di rapat All Core Devs."
+        }
+       ]
+      },
+      {
+       "label": "PEMICU &amp; WAKTU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Glamsterdam di mainnet (Q4-2026/Q1-2027) menambah kapasitas, tetapi tidak otomatis menambah pembakaran. Pemicu lain: lonjakan aktivitas saat pasar naik. Pengurangan ETH baru paling cepat 2027+."
+        }
+       ]
+      },
+      {
+       "label": "SUMBER IDE",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "ultrasound.money; BEX (BPO2: blob terpakai 20–30%); Lookonchain (batas gas 60 → 200 jt); MEXC (titik impas historis ±16 gwei saat batas gas 30 jt, sejalan dengan perhitungan ini); EIP-8361 (The Block)."
+        }
+       ]
+      },
+      {
+       "label": "PELUANG &amp; KEYAKINAN",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">10% dalam 12 bulan · 25% dalam 36 bulan</strong>, sebagian besar dari pengurangan ETH baru. Ukurannya: perubahan suplai rata-rata 30 hari di bawah nol. Ethereum pernah deflasi pada 2023, tetapi berhenti setelah upgrade Dencun memindahkan aktivitas ke L2. <strong style=\"color: var(--white);\">Keyakinan: rendah.</strong>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "label": "SEBERAPA JAUH DARI DEFLASI · ETH PER HARI",
+     "blocks": [
+      {
+       "type": "bars",
+       "label_width": 200,
+       "max": 3300,
+       "rows": [
+        {
+         "label": "ETH baru saat ini (43,1 jt di-stake)",
+         "value": 3000,
+         "color": "orange",
+         "display": "±3.000 ETH/hari"
+        },
+        {
+         "label": "ETH baru jika EIP-8361 berlaku (est.)",
+         "value": 1400,
+         "color": "warning",
+         "display": "±1.400 ETH/hari"
+        },
+        {
+         "label": "ETH baru jika stake naik ke 50 jt",
+         "value": 3270,
+         "color": "darkred",
+         "display": "±3.270 ETH/hari"
+        },
+        {
+         "label": "ETH dibakar saat ini (24 Sep)",
+         "value": 100,
+         "color": "green",
+         "display": "±100 ETH/hari"
+        },
+        {
+         "label": "ETH dibakar, rata-rata 12 bulan",
+         "value": 64,
+         "color": "green",
+         "display": "±64 ETH/hari"
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Deflasi terjadi saat batang hijau (dibakar) lebih panjang dari batang ETH baru. Bahkan dengan EIP-8361, pembakaran masih harus naik ±14× dari level 24 Sep."
+      }
+     ],
+     "mt": 10
+    }
+   ]
+  },
+  {
+   "label": "Detail pendorong 3",
+   "subtitle": "Detail pendorong (4/4)",
+   "blocks": [
+    {
+     "type": "dcard",
+     "tag": "PENDORONG 03 — PENDUKUNG · PERMINTAAN",
+     "title": "Arus masuk ETF &amp; perusahaan pemegang ETH",
+     "subtitle": "Pembeli jangka panjang yang menyerap ETH baru dan menguras stok di bursa",
+     "pills": [
+      {
+       "t": "Q4-26–2027",
+       "c": "warning"
+      },
+      {
+       "t": "PELUANG 50%",
+       "c": "info"
+      }
+     ],
+     "accent": "info",
+     "mt": 12,
+     "rows": [
+      {
+       "label": "MEKANISME",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "ETF spot dan perusahaan treasury membeli ETH di pasar lalu menyimpannya untuk jangka panjang, sebagian di-stake. Setiap ETH yang mereka simpan mengurangi stok di bursa. Jika yang mereka serap lebih banyak dari ETH baru yang dicetak, stok yang bisa dijual menyusut. Perusahaan membiayai pembelian dengan menerbitkan saham, dan cara ini hanya efektif bila mNAV di atas 1."
+        }
+       ]
+      },
+      {
+       "label": "DAMPAK TERUKUR",
+       "blocks": [
+        {
+         "type": "mtab",
+         "cols": "minmax(0px,1.4fr) 116px 150px",
+         "hl": 2,
+         "header": [
+          "METRIK",
+          "KINI",
+          "SKENARIO 12 BLN*"
+         ],
+         "rows": [
+          [
+           "ETF spot (dana kelolaan $15,57 M)",
+           "±5,8 jt ETH (4,7%)",
+           "+1,1–2,2 jt ETH"
+          ],
+          [
+           "Perusahaan treasury (34 entitas)",
+           "8,01 jt ETH (6,56%)",
+           "+0,6–1,5 jt ETH"
+          ],
+          [
+           "<strong style=\"color: var(--white);\">Total ETF + perusahaan</strong>",
+           "±13,8 jt (±11,3%)",
+           "15,5–17,5 jt (12,7–14,3%)"
+          ],
+          [
+           "Rasio serap (beli bersih ÷ ETH baru bersih 1,06 jt/th)",
+           "—",
+           "1,6–3,5×"
+          ],
+          [
+           "Cadangan bursa",
+           "14,88 jt ETH",
+           "tiap 1 jt diserap ≈ −6,7%"
+          ]
+         ]
+        },
+        {
+         "type": "note",
+         "html": "*ESTIMASI. ETF: arus masuk bersih $3–6 M per tahun pada harga ±$2.700. Perusahaan: 6,7 jt (16 Mei) → 8,01 jt (Sep) ≈ +290rb per bulan, tetapi BitMine sudah memegang 6,0 jt dari target 5% (±6,1 jt), jadi lajunya diasumsikan melambat. Contoh: arus ETF 21–28 Sep +$707 jt ≈ 263rb ETH, ±13× ETH baru bersih dalam seminggu (20,3rb ETH)."
+        }
+       ]
+      },
+      {
+       "label": "INDIKATOR PANTAU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Arus ETF harian/mingguan (Farside) · kepemilikan perusahaan (CoinGecko Treasuries) · pembelian BitMine per minggu (waspada bila &lt;5rb ETH) · mNAV BitMine &amp; SharpLink (waspada bila &lt;1) · cadangan bursa · status staking di dalam ETF."
+        }
+       ]
+      },
+      {
+       "label": "PEMICU &amp; WAKTU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Q4-2026 s.d. 2027. Pemicunya: BTC dan kondisi makro membaik, suku bunga turun, mNAV kembali di atas 1, ada perusahaan treasury baru, dan ETF staking lain disetujui. Arus keluar ETF 29–30 Sep (−$62 jt) menunjukkan arus ini masih bisa berbalik."
+        }
+       ]
+      },
+      {
+       "label": "SUMBER IDE",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Farside, CoinGecko Treasuries, Bitget (6,7 jt ETH, 16 Mei 2026), data ETF/BitMine di Bagian 2. Faktor penghambat: EIP-8361 akan memotong imbal hasil staking perusahaan sekitar separuh."
+        }
+       ]
+      },
+      {
+       "label": "PELUANG &amp; KEYAKINAN",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">50%</strong>: ETF + perusahaan memegang ≥13% suplai (≥15,9 jt ETH) pada Q4-2027. <strong style=\"color: var(--white);\">Keyakinan: sedang.</strong>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "sub",
+     "num": "3.2",
+     "title": "DARI PENDORONG KE SKENARIO &amp; JADWAL PEMANTAUAN",
+     "mt": 12
+    },
+    {
+     "type": "grid",
+     "mt": 0,
+     "align": "start",
+     "cols": "minmax(0px,1fr) minmax(0px,1.1fr)",
+     "items": [
+      {
+       "type": "card",
+       "label": "POHON PELUANG 12 BULAN",
+       "blocks": [
+        {
+         "type": "tree",
+         "nodes": [
+          {
+           "title": "Optimis · $5.500",
+           "sub": "Skenario optimis Pandangan Pasar Bulanan, ditambah alfa dari P1 dan P3.",
+           "color": "green",
+           "prob": "20%"
+          },
+          {
+           "title": "Dasar · $3.400",
+           "sub": "Skenario dasar Pandangan Pasar Bulanan, ditambah alfa dari P1.",
+           "color": "info",
+           "prob": "45%"
+          },
+          {
+           "title": "Pesimis · $1.700",
+           "sub": "Skenario pesimis Pandangan Pasar Bulanan; harga akhir 12 bulan, bukan harga yang sempat disentuh.",
+           "color": "red",
+           "prob": "35%"
+          }
+         ]
+        },
+        {
+         "type": "formula",
+         "html": "Harga Perkiraan = 20%×5.500 + 45%×3.400 + 35%×1.700 = ±$3.225 (+20%)<br>Rasio untung-rugi = $883 ÷ $346 = ±2,5×"
+        },
+        {
+         "type": "note",
+         "html": "P2 (10%) tidak dihitung dalam skenario bull 12 bulan karena baru relevan 2027+. R2 dan R3 sudah tercermin di batas bawah skenario P3 dan P1."
+        }
+       ]
+      },
+      {
+       "type": "card",
+       "label": "JADWAL &amp; TITIK UJI",
+       "blocks": [
+        {
+         "type": "timeline",
+         "rows": [
+          [
+           "6 Okt 2026",
+           "Glamsterdam diuji di testnet Sepolia",
+           "P1 · P2"
+          ],
+          [
+           "Q4-2026",
+           "Uji Hoodi &amp; penetapan tanggal mainnet Glamsterdam (est.)",
+           "P2 · R3"
+          ],
+          [
+           "Q4-2026",
+           "Keputusan ETF staking penerbit lain; arah arus ETF",
+           "P3"
+          ],
+          [
+           "Q4-26/Q1-27",
+           "Glamsterdam di mainnet: batas gas 200 jt, ePBS, BAL",
+           "P1 · P2"
+          ],
+          [
+           "Bulanan",
+           "RWA di Ethereum naik ≥3,5% per bulan; stablecoin di Ethereum",
+           "P1"
+          ],
+          [
+           "2027+",
+           "EIP-8361 dibahas untuk upgrade setelah Glamsterdam",
+           "P2 · R2"
+          ],
+          [
+           "Q4-2027",
+           "Titik uji: nilai diamankan ≥$230 M · ETF + perusahaan ≥13%",
+           "P1 · P3"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Valuasi",
+   "subtitle": "Valuasi vs peer / benchmark",
+   "blocks": [
+    {
+     "type": "bigsec",
+     "num": "4",
+     "title": "Valuasi vs Peer / Benchmark"
+    },
+    {
+     "type": "text",
+     "html": "MC $328,13 M; fee 12 bulan $202,7 jt → P/S ±1.620× (±5.200× bila hanya memakai ETH yang dibakar).",
+     "mt": 2,
+     "mb": 6
+    },
+    {
+     "type": "table",
+     "cols": "minmax(0px,1fr) 70px 86px 64px 56px minmax(0px,1.35fr)",
+     "header": [
+      "PEMBANDING",
+      "MARKET CAP",
+      "FEE/TAHUN",
+      "P/S",
+      "MC/TVL",
+      "KETERANGAN"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Ethereum (ETH)",
+        "c": "white"
+       },
+       {
+        "n": "$328,13 M",
+        "c": "body"
+       },
+       {
+        "n": "$202,7 jt",
+        "c": "body",
+        "s": "fee 12 bulan"
+       },
+       {
+        "n": "±1.620×",
+        "c": "green",
+        "b": true
+       },
+       {
+        "n": "6,13×",
+        "c": "muted"
+       },
+       "Fee 12 bulan (DefiLlama, ±1 Okt)"
+      ],
+      [
+       {
+        "t": "Bitcoin (BTC)",
+        "c": "white"
+       },
+       {
+        "n": "±$1,70 T",
+        "c": "body"
+       },
+       {
+        "n": "$172 jt",
+        "c": "body"
+       },
+       {
+        "n": "±9.900×",
+        "c": "white",
+        "b": true
+       },
+       {
+        "n": "379,5×",
+        "c": "muted"
+       },
+       "Pembanding aset moneter · ETH/BTC 0,0318"
+      ],
+      [
+       {
+        "t": "BNB",
+        "c": "white"
+       },
+       {
+        "n": "$103,1 M",
+        "c": "body"
+       },
+       {
+        "n": "$259 jt",
+        "c": "body"
+       },
+       {
+        "n": "±398×",
+        "c": "white",
+        "b": true
+       },
+       {
+        "n": "18×",
+        "c": "muted"
+       },
+       "L1 · pembanding MC · RWA $5,5 M (11,9%)"
+      ],
+      [
+       {
+        "t": "Solana (SOL)",
+        "c": "white"
+       },
+       {
+        "n": "$67,8 M",
+        "c": "body"
+       },
+       {
+        "n": "$603 jt",
+        "c": "body"
+       },
+       {
+        "n": "±112×",
+        "c": "white",
+        "b": true
+       },
+       {
+        "n": "10,5×",
+        "c": "muted"
+       },
+       "L1 · pesaing langsung · RWA $3,0 M (6,5%)"
+      ],
+      [
+       {
+        "t": "Tron (TRX)",
+        "c": "white"
+       },
+       {
+        "n": "$32,6 M",
+        "c": "body"
+       },
+       {
+        "n": "$581 jt",
+        "c": "body"
+       },
+       {
+        "n": "±56×",
+        "c": "white",
+        "b": true
+       },
+       {
+        "n": "5,8×",
+        "c": "muted"
+       },
+       "L1 · jalur utama stablecoin"
+      ],
+      [
+       {
+        "t": "Hyperliquid (HYPE)",
+        "c": "white"
+       },
+       {
+        "n": "$23,3 M",
+        "c": "body"
+       },
+       {
+        "n": "±$960 jt",
+        "c": "body"
+       },
+       {
+        "n": "±24×",
+        "c": "white",
+        "b": true
+       },
+       {
+        "n": "19,5×",
+        "c": "muted"
+       },
+       "Pesaing aktivitas on-chain"
+      ],
+      [
+       {
+        "t": "Stellar (XLM)",
+        "c": "white"
+       },
+       {
+        "n": "$7,85 M",
+        "c": "body"
+       },
+       {
+        "n": "±$500 rb",
+        "c": "body"
+       },
+       {
+        "n": "±15.763×",
+        "c": "white",
+        "b": true
+       },
+       {
+        "n": "28,5×",
+        "c": "muted"
+       },
+       "Jalur RWA · $3,3 M RWA (7,2%)"
+      ]
+     ],
+     "hl": [
+      0
+     ],
+     "align": [
+      "l",
+      "r",
+      "r",
+      "r",
+      "r",
+      "l"
+     ]
+    },
+    {
+     "type": "grid",
+     "cols": "repeat(3, minmax(0px,1fr))",
+     "gap": 10,
+     "items": [
+      {
+       "type": "card",
+       "label": "1 · MAHAL JIKA DILIHAT DARI FEE",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "P/S ETH ±1.620×, jauh di atas SOL (112×), TRX (56×), dan HYPE (24×)."
+        }
+       ],
+       "label_color": "red"
+      },
+      {
+       "type": "card",
+       "label": "2 · MURAH SEBAGAI ASET MONETER",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "ETH masih di bawah BTC (±9.900×), yang dinilai sebagai penyimpan nilai, bukan dari fee."
+        }
+       ],
+       "label_color": "green"
+      },
+      {
+       "type": "card",
+       "label": "3 · KESIMPULAN",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Pasar tidak menilai ETH dari fee, jadi target juga dihitung dari MC ÷ nilai yang diamankan."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Fee pembanding = fee 2025 (Nansen); HYPE = Jun-2026 disetahunkan. Skor valuasi 6,60."
+    },
+    {
+     "type": "sub",
+     "num": "4.1",
+     "title": "TARGET DIHITUNG DENGAN TIGA CARA",
+     "mt": 7
+    },
+    {
+     "type": "table",
+     "size": 10.5,
+     "cols": "84px 66px 76px minmax(0px,1fr) minmax(0px,1.2fr) minmax(0px,1.2fr)",
+     "header": [
+      "SKENARIO",
+      "TARGET",
+      "MC TERSIRAT",
+      "P/S (FEE $202,7 JT)",
+      "MC ÷ NILAI ($173,7 M)",
+      "MC ÷ NILAI $230 M (P1)"
+     ],
+     "rows": [
+      [
+       "<span style=\"color: var(--success-solid); font-weight: 700;\">Optimis · 20%</span>",
+       {
+        "n": "$5.500",
+        "c": "green",
+        "b": true
+       },
+       {
+        "n": "$671 M",
+        "c": "body"
+       },
+       {
+        "n": "3.310×",
+        "c": "body"
+       },
+       {
+        "n": "3,86×",
+        "c": "body"
+       },
+       {
+        "n": "2,92×",
+        "c": "body"
+       }
+      ],
+      [
+       "<span style=\"color: var(--info); font-weight: 700;\">Dasar · 45%</span>",
+       {
+        "n": "$3.400",
+        "c": "info",
+        "b": true
+       },
+       {
+        "n": "$415 M",
+        "c": "body"
+       },
+       {
+        "n": "2.050×",
+        "c": "body"
+       },
+       {
+        "n": "2,39×",
+        "c": "body"
+       },
+       {
+        "n": "1,80×",
+        "c": "green",
+        "b": true
+       }
+      ],
+      [
+       "<span style=\"color: var(--danger); font-weight: 700;\">Pesimis · 35%</span>",
+       {
+        "n": "$1.700",
+        "c": "red",
+        "b": true
+       },
+       {
+        "n": "$208 M",
+        "c": "body"
+       },
+       {
+        "n": "1.030×",
+        "c": "body"
+       },
+       {
+        "n": "1,20×",
+        "c": "body"
+       },
+       {
+        "n": "—",
+        "c": "muted"
+       }
+      ],
+      [
+       "<span style=\"color: var(--text-muted);\">Kini</span>",
+       {
+        "n": "$2.688",
+        "c": "body"
+       },
+       {
+        "n": "$328 M",
+        "c": "body"
+       },
+       {
+        "n": "1.620×",
+        "c": "body"
+       },
+       {
+        "n": "1,89×",
+        "c": "body"
+       },
+       ""
+      ]
+     ],
+     "align": [
+      "l",
+      "r",
+      "r",
+      "r",
+      "r",
+      "r"
+     ]
+    },
+    {
+     "type": "grid",
+     "mt": 8,
+     "cols": "minmax(0px,1fr) minmax(0px,1.05fr)",
+     "items": [
+      {
+       "type": "card",
+       "label": "CARA MEMBACA",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Target base cukup dengan rasio 1,80× (di bawah rasio sekarang 1,89×) asalkan P1 terwujud. Tanpa P1, butuh rasio 2,39×: harga naik tanpa dukungan fundamental."
+        }
+       ]
+      },
+      {
+       "type": "card",
+       "label": "HARGA TERSIRAT DARI DUA ANGKA",
+       "blocks": [
+        {
+         "type": "heat",
+         "corner": "NILAI DIAMANKAN ↓ · RASIO →",
+         "col_labels": [
+          "1,50×",
+          "1,89× (kini)",
+          "2,40×"
+         ],
+         "row_labels": [
+          "$173,7 M · 24 Sep",
+          "$200 M",
+          "$230 M · target P1",
+          "$260 M"
+         ],
+         "values": [
+          [
+           2134,
+           2689,
+           3415
+          ],
+          [
+           2457,
+           3096,
+           3932
+          ],
+          [
+           2826,
+           3561,
+           4522
+          ],
+          [
+           3195,
+           4025,
+           5111
+          ]
+         ],
+         "thresholds": [
+          2688,
+          3400
+         ]
+        },
+        {
+         "type": "note",
+         "html": "Merah: di bawah harga sekarang · kuning: di bawah target base · hijau: di atas target base."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "sub",
+     "num": "4.2",
+     "title": "SKENARIO TOKENISASI &amp; PERKIRAAN HARGA ETH 2030",
+     "mt": 9,
+     "right": "bukan target 12 bulan"
+    },
+    {
+     "type": "grid",
+     "mt": 0,
+     "align": "start",
+     "cols": "minmax(0px,1.1fr) minmax(0px,1fr)",
+     "items": [
+      {
+       "type": "table",
+       "size": 10.5,
+       "cols": "minmax(0px,1.2fr) minmax(0px,1fr) minmax(0px,1fr)",
+       "header": [
+        "PASAR TOKENISASI 2030",
+        "RASIO 0,5×",
+        "RASIO 1,0×"
+       ],
+       "align": [
+        "l",
+        "r",
+        "r"
+       ],
+       "rows": [
+        [
+         {
+          "t": "McKinsey · $2 T",
+          "c": "white"
+         },
+         {
+          "n": "$4.600",
+          "c": "info",
+          "b": true
+         },
+         {
+          "n": "$9.200",
+          "c": "info",
+          "b": true
+         }
+        ],
+        [
+         {
+          "t": "Moderat · $3,5 T",
+          "c": "white"
+         },
+         {
+          "n": "$8.000",
+          "c": "info",
+          "b": true
+         },
+         {
+          "n": "$16.000",
+          "c": "info",
+          "b": true
+         }
+        ],
+        [
+         {
+          "t": "Citi · $5,5 T",
+          "c": "white"
+         },
+         {
+          "n": "$12.600",
+          "c": "info",
+          "b": true
+         },
+         {
+          "n": "$25.200",
+          "c": "info",
+          "b": true
+         }
+        ]
+       ]
+      },
+      {
+       "type": "card",
+       "label": "ASUMSI",
+       "blocks": [
+        {
+         "type": "ul",
+         "items": [
+          "MC = rasio × (porsi Ethereum 58% × besar pasar tokenisasi).",
+          "Suplai 2030 ±126,5 jt ETH (est.), inflasi ±0,9% per tahun.",
+          "Rasio sekarang (1,89×) tidak dipakai: makin besar nilai yang diamankan, rasionya cenderung mengecil."
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Risiko",
+   "subtitle": "Yang bisa mematahkan tesis",
+   "blocks": [
+    {
+     "type": "bigsec",
+     "num": "5",
+     "title": "Yang Bisa Mematahkan Tesis",
+     "mt": 14
+    },
+    {
+     "type": "dcard",
+     "tag": "RISIKO 01 — PALING BERBAHAYA",
+     "title": "Tekanan makro &amp; BTC turun → ETH kembali ke $1.700",
+     "title_size": 13,
+     "pills": [
+      {
+       "t": "PELUANG 35% · = PESIMIS",
+       "c": "red"
+      }
+     ],
+     "accent": "red",
+     "mt": 7,
+     "rows": [
+      {
+       "label": "MEKANISME",
+       "blocks": [
+        {
+         "type": "ol",
+         "items": [
+          "Suku bunga The Fed 3,75–4,00% (naik 16 Sep) dan imbal hasil obligasi AS 10 tahun 4,96% menekan aset berisiko; ETH biasanya turun lebih dalam dari BTC.",
+          "Dana keluar dari ETF, ETH kembali ke bursa, tekanan jual bertambah."
+         ]
+        }
+       ]
+      },
+      {
+       "label": "DAMPAK TERUKUR",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Kepemilikan ETF (dalam ETH) dan cadangan bursa. Semester I 2026: ETF kehilangan 953rb ETH saat harga ETH turun 45%."
+        }
+       ]
+      },
+      {
+       "label": "INDIKATOR PANTAU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "ETH tutup mingguan &lt;$2.390 · BTC tutup mingguan &lt;$77rb · arus ETF 4 minggu negatif · cadangan bursa naik &gt;0,5 jt dalam 30 hari · imbal hasil obligasi AS 10 tahun &gt;5%."
+        }
+       ]
+      },
+      {
+       "label": "PELUANG",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">35%</strong> untuk “ETH menyentuh ≤$1.700 dalam 12 bulan”; dipakai sebagai peluang bear."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "dcard",
+     "tag": "RISIKO 02 — DAMPAK SEDANG",
+     "title": "BitMine berhenti membeli atau terpaksa menjual",
+     "title_size": 13,
+     "pills": [
+      {
+       "t": "BERHENTI 70%",
+       "c": "gold"
+      },
+      {
+       "t": "JUAL BERSIH 10%",
+       "c": "red"
+      }
+     ],
+     "accent": "gold",
+     "mt": 7,
+     "rows": [
+      {
+       "label": "MEKANISME",
+       "blocks": [
+        {
+         "type": "ol",
+         "items": [
+          "BitMine pembeli terbesar (±110rb ETH per bulan sejak Juni) dan sudah 98% dari target 5% suplai; sebagian dananya dari saham preferen berdividen 9,5%.",
+          "Jika mNAV di bawah 1, BitMine tak bisa lagi menerbitkan saham dan bisa terpaksa menjual."
+         ]
+        }
+       ]
+      },
+      {
+       "label": "DAMPAK TERUKUR",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Hilang permintaan ±110rb ETH per bulan (±1,3× ETH baru bersih). Jika menjual: 6,0 jt ETH = ±40% cadangan bursa."
+        }
+       ]
+      },
+      {
+       "label": "INDIKATOR PANTAU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Pembelian mingguan BitMine &lt;5rb ETH · mNAV &lt;1 · dividen preferen vs pendapatan staking (±$223 jt/th) · antrean keluar staking."
+        }
+       ]
+      },
+      {
+       "label": "PELUANG",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Berhenti menambah: <strong style=\"color: var(--white);\">70%</strong> (sudah masuk skenario P3 terendah). Menjual ≥5% kepemilikan: <strong style=\"color: var(--white);\">10%</strong>."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "dcard",
+     "tag": "RISIKO 03 — PERLU DIAWASI",
+     "title": "Nilai tidak sampai ke ETH / Glamsterdam tertunda",
+     "title_size": 13,
+     "pills": [
+      {
+       "t": "PELUANG 20%",
+       "c": "muted"
+      }
+     ],
+     "accent": "muted",
+     "mt": 7,
+     "rows": [
+      {
+       "label": "MEKANISME",
+       "blocks": [
+        {
+         "type": "ol",
+         "items": [
+          "Aktivitas pindah ke L2 dan aplikasi (±95% biaya diambil aplikasi); Solana dan Hyperliquid merebut pengguna; penerbit RWA bisa memilih jaringan lain."
+         ]
+        }
+       ]
+      },
+      {
+       "label": "DAMPAK TERUKUR",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Fee jaringan 12 bulan (kini $202,7 jt); pendapatan Q2 −66% setahun; pengguna aktif bulanan −30% dari kuartal lalu; porsi Ethereum di pasar RWA (48,4% L1, ±58% L1+L2)."
+        }
+       ]
+      },
+      {
+       "label": "INDIKATOR PANTAU",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Fee L1 rata-rata 30 hari &lt;$500rb per hari · ETH/BTC &lt;0,025 · porsi RWA Ethereum (L1+L2) &lt;45% · Glamsterdam mundur melewati Q1-2027."
+        }
+       ]
+      },
+      {
+       "label": "PELUANG",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--white);\">20%</strong> untuk kejadian “fee 12 bulan &lt;$150 jt dan porsi RWA &lt;45% pada Q4-2027”."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "stats",
+     "verdict": "HARGA MURAH · RASIO ±2,5×",
+     "items": [
+      {
+       "label": "POTENSI NAIK",
+       "value": "+$883",
+       "color": "green",
+       "sub": "20%×$2.812 + 45%×$712"
+      },
+      {
+       "label": "POTENSI TURUN",
+       "value": "−$346",
+       "color": "red",
+       "sub": "35% × $988"
+      },
+      {
+       "label": "HARGA PERKIRAAN",
+       "value": "$3.225",
+       "color": "white",
+       "sub": "+20% dari $2.688"
+      },
+      {
+       "label": "RASIO UNTUNG-RUGI",
+       "value": "±2,5×",
+       "color": "gold",
+       "sub": "$883 ÷ $346"
+      }
+     ],
+     "note": "Sikap: Beli Saat Turun · keyakinan sedang. Zona beli $1.700–2.390, atau setelah ukuran P1/P3 terbukti tercapai.",
+     "label": "RINGKASAN SKENARIO"
+    }
+   ]
+  },
+  {
+   "label": "Sharia note dan pemantauan",
+   "subtitle": "Sharia note &amp; pemantauan",
+   "disclaimer": "B",
+   "blocks": [
+    {
+     "type": "bigsec",
+     "num": "6",
+     "title": "Sharia Note",
+     "mt": 14
+    },
+    {
+     "type": "sharia",
+     "score": "80",
+     "verdict": "Sesuai Syariah",
+     "verdict_color": "green",
+     "summary": "Lolos semua batas minimum, skor 80 (ambang Sesuai Syariah 80). Beli dan simpan: Boleh. Staking: Bersyarat, hasilnya perlu tathir. 4-Layer Framework · Metodologi v3.1.",
+     "layers": [
+      {
+       "label": "LAYER 1 · 26/30",
+       "name": "Infrastruktur",
+       "icon": "⚠️",
+       "icon_color": "warning",
+       "text": "Jaringannya netral, tetapi juga dipakai langsung oleh sebagian aplikasi yang mengandung riba dan maysir.",
+       "score": "26/30",
+       "pct": 87
+      },
+      {
+       "label": "LAYER 2 · 25/30",
+       "name": "Kegunaan token",
+       "icon": "✅",
+       "icon_color": "green",
+       "text": "Sebagai gas ✅ dan akses aplikasi ✅. Staking ⚠️ karena imbalannya bercampur priority fee dan MEV.",
+       "score": "25/30",
+       "pct": 83
+      },
+      {
+       "label": "LAYER 3 · 7/10",
+       "name": "Sumber nilai",
+       "icon": "⚠️",
+       "icon_color": "warning",
+       "text": "Diperkirakan 10–25% fee L1 berasal dari pinjaman berbunga, perpetual, dan judi. Staker perlu tathir ±0,5–2,5% dari imbalan.",
+       "score": "7/10",
+       "pct": 70
+      },
+      {
+       "label": "LAYER 4 · 22/30",
+       "name": "Penggunaan",
+       "icon": "✅",
+       "icon_color": "green",
+       "text": "Dipakai untuk pertukaran aset nyata dengan manfaat yang jelas (gas, penyelesaian transaksi, tokenisasi).",
+       "score": "22/30",
+       "pct": 73
+      }
+     ],
+     "after": [
+      {
+       "type": "card",
+       "label": null,
+       "blocks": [
+        {
+         "type": "text",
+         "html": "<strong style=\"color: var(--warning);\">Risiko Layer 3:</strong> 76% RWA berupa dana obligasi/pasar uang yang berbasis bunga. Jika P1 terwujud dengan komposisi ini, L3 bisa turun dari 7/10 ke 4–5, mendekati batas gate (&lt;4). Artinya, skenario terbaik untuk harga justru bisa menjadi tekanan terbesar bagi status syariah."
+        },
+        {
+         "type": "text",
+         "html": "Pembanding: Sharlife menilai halal termasuk staking (Q2-2024); IFG: staking diperbolehkan (2025); PIF: Comfortable.",
+         "muted": true,
+         "mt": 3
+        }
+       ],
+       "mt": 8
+      },
+      {
+       "type": "grid",
+       "mt": 8,
+       "cols": "repeat(3, minmax(0px,1fr))",
+       "gap": 8,
+       "items": [
+        {
+         "type": "card",
+         "label": "BELI &amp; SIMPAN (SPOT)",
+         "blocks": [
+          {
+           "type": "text",
+           "html": "✅ Relatif aman; ini pertukaran aset nyata.",
+           "size": 9.5
+          }
+         ],
+         "label_color": "green"
+        },
+        {
+         "type": "card",
+         "label": "STAKING",
+         "blocks": [
+          {
+           "type": "text",
+           "html": "⚠️ Boleh, dengan tathir ±0,5–2,5% dari imbalan (bagian priority fee/MEV).",
+           "size": 9.5
+          }
+         ],
+         "label_color": "gold"
+        },
+        {
+         "type": "card",
+         "label": "PINJAMAN / PERPETUAL",
+         "blocks": [
+          {
+           "type": "text",
+           "html": "❌ Hindari: mengandung riba dan maysir.",
+           "size": 9.5
+          }
+         ],
+         "label_color": "red"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "sub",
+     "num": "6.1",
+     "title": "DAMPAK PENDORONG &amp; RISIKO TERHADAP STATUS SYARIAH",
+     "mt": 12
+    },
+    {
+     "type": "table",
+     "size": 9.5,
+     "pad": 4,
+     "cols": "120px minmax(0px,1.6fr) 90px",
+     "header": [
+      "PENDORONG / RISIKO",
+      "PENGARUH KE SYARIAH",
+      "ARAH SKOR"
+     ],
+     "rows": [
+      [
+       {
+        "t": "P1 · Tokenisasi",
+        "c": "white"
+       },
+       "Mayoritas RWA berupa dana berbasis bunga; makin besar porsinya, makin besar fee dari aktivitas ribawi.",
+       {
+        "n": "L3 turun",
+        "c": "red"
+       }
+      ],
+      [
+       {
+        "t": "P2 · Deflasi",
+        "c": "white"
+       },
+       "Pembakaran imbalan staking (EIP-8361) tidak menambah unsur haram; imbalan staker mengecil.",
+       {
+        "n": "netral",
+        "c": "muted"
+       }
+      ],
+      [
+       {
+        "t": "P3 · ETF &amp; perusahaan",
+        "c": "white"
+       },
+       "ETF staking dan perusahaan treasury memakai leverage; ini isu di level produk, bukan di ETH.",
+       {
+        "n": "netral",
+        "c": "muted"
+       }
+      ],
+      [
+       {
+        "t": "R3 · Pindah ke L2",
+        "c": "white"
+       },
+       "Aktivitas judi/perpetual di L2 tidak dihitung di fee L1, sehingga L3 bisa membaik.",
+       {
+        "n": "L3 naik",
+        "c": "green"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "sub",
+     "num": "6.2",
+     "title": "DASBOR PEMANTAUAN · CEK MINGGUAN/BULANAN",
+     "mt": 12
+    },
+    {
+     "type": "table",
+     "size": 9.5,
+     "cols": "minmax(0px,1.4fr) 132px minmax(0px,1.3fr) 58px",
+     "header": [
+      "INDIKATOR",
+      "KINI",
+      "TARGET / BATAS WASPADA",
+      "TERKAIT"
+     ],
+     "rows": [
+      [
+       "Nilai diamankan (stablecoin + RWA)",
+       "$176,2 M (9 Okt)",
+       "≥$230 M (Q4-2027)",
+       "P1"
+      ],
+      [
+       "Porsi Ethereum L1 di RWA",
+       "48,4%",
+       "waspada &lt;45%",
+       "P1 · R3"
+      ],
+      [
+       "MC ÷ nilai diamankan",
+       "1,89×",
+       "waspada &lt;1,5×",
+       "P1"
+      ],
+      [
+       "Perubahan suplai 30 hari",
+       "+ (±0,9%/th)",
+       "&lt;0 = deflasi",
+       "P2"
+      ],
+      [
+       "Base fee rata-rata",
+       "±0,46 gwei",
+       "≥4,2 gwei setelah Glamsterdam",
+       "P2"
+      ],
+      [
+       "ETF + perusahaan (% suplai)",
+       "11,3%",
+       "≥13% (Q4-2027)",
+       "P3"
+      ],
+      [
+       "Pembelian mingguan BitMine / mNAV",
+       "±25rb ETH/minggu (est.)",
+       "waspada &lt;5rb ETH · mNAV &lt;1",
+       "P3 · R2"
+      ],
+      [
+       "ETH / BTC tutup mingguan",
+       "$2.688 / —",
+       "waspada &lt;$2.390 / &lt;$77rb",
+       "R1"
+      ],
+      [
+       "Cadangan bursa",
+       "14,88 jt ETH",
+       "waspada jika naik &gt;0,5 jt dalam 30 hari",
+       "R1"
+      ],
+      [
+       "Fee L1 rata-rata 30 hari",
+       "±$0,53 jt/hari",
+       "waspada &lt;$0,5 jt/hari",
+       "R3"
+      ],
+      [
+       "Arus ETF mingguan",
+       "+$707 jt (21–28 Sep)",
+       "waspada jika negatif 4 minggu",
+       "P3 · R1"
+      ]
+     ],
+     "align": [
+      "l",
+      "r",
+      "l",
+      "r"
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Sumber dan glosarium",
+   "subtitle": "Sumber &amp; glosarium",
+   "disclaimer": "B",
+   "blocks": [
+    {
+     "type": "bigsec",
+     "num": "7",
+     "title": "Sumber",
+     "mt": 14
+    },
+    {
+     "type": "text",
+     "html": "Harga, MC, suplai: CoinGecko (±17.00 WIB 24 Sep 2026). Fee, pembakaran 12 bulan, porsi aplikasi vs jaringan, stablecoin: DefiLlama (±1 Okt). Pendapatan Q2, pengguna aktif, RWA: Token Terminal (lewat The Crypto Times); CoinGecko RWA Report 2026. Aset tokenisasi per jaringan: rwa.xyz (9 Okt). Arus ETF: Farside (s.d. 30 Sep). Pemegang: Cointribune, CCN, The Block, Investing.com, FXStreet, thirdweb, Coinpedia, Bitget. Suplai &amp; gas: ultrasound.money, BEX, Lookonchain, MEXC. EIP-8361: The Block, CoinGape. Fee pembanding: Nansen, DefiLlama. Makro: FRED, TradingEconomics. Data yang belum tersedia: MEV tahunan, laporan pengeluaran EF, MVRV/NVT.",
+     "size": 10,
+     "mt": 4
+    },
+    {
+     "type": "resources",
+     "items": [
+      [
+       "CoinGecko ETH",
+       "coingecko.com"
+      ],
+      [
+       "DefiLlama · fee",
+       "defillama.com"
+      ],
+      [
+       "rwa.xyz · jaringan",
+       "rwa.xyz"
+      ],
+      [
+       "Token Terminal · RWA",
+       "cryptotimes.io"
+      ],
+      [
+       "ultrasound.money",
+       "ultrasound.money"
+      ],
+      [
+       "Farside · arus ETF",
+       "farside.co.uk"
+      ],
+      [
+       "CoinGecko Treasuries",
+       "coingecko.com"
+      ],
+      [
+       "EIP-8361",
+       "theblock.co"
+      ],
+      [
+       "Cadangan bursa",
+       "cointribune.com"
+      ],
+      [
+       "BitMine &gt;6 jt ETH",
+       "fxstreet.com"
+      ],
+      [
+       "Sharlife ETH",
+       "sharlife.my"
+      ],
+      [
+       "IFG · staking",
+       "islamicfinanceguru.com"
+      ]
+     ]
+    },
+    {
+     "type": "bigsec",
+     "num": "8",
+     "title": "Glosarium",
+     "mt": 16
+    },
+    {
+     "type": "text",
+     "html": "Arti singkat istilah yang dipakai di dokumen ini, diurutkan sesuai kemunculannya.",
+     "muted": true,
+     "mb": 6
+    },
+    {
+     "type": "grid",
+     "mt": 0,
+     "align": "start",
+     "cols": "minmax(0px,1fr) minmax(0px,1fr)",
+     "gap": 10,
+     "items": [
+      {
+       "type": "table",
+       "size": 9.5,
+       "pad": 4,
+       "cols": "112px minmax(0px,1fr)",
+       "header": [
+        "ISTILAH",
+        "ARTI SINGKAT"
+       ],
+       "rows": [
+        [
+         {
+          "t": "Stablecoin",
+          "c": "white"
+         },
+         "Token yang nilainya dipatok ke mata uang, biasanya 1 token = $1 (USDT, USDC)."
+        ],
+        [
+         {
+          "t": "RWA / tokenisasi",
+          "c": "white"
+         },
+         "Aset dunia nyata (obligasi, emas, dana) yang dibuatkan versi token di blockchain."
+        ],
+        [
+         {
+          "t": "Nilai diamankan",
+          "c": "white"
+         },
+         "Total stablecoin + RWA yang disimpan di Ethereum dan L2-nya."
+        ],
+        [
+         {
+          "t": "Market cap (MC) / FDV",
+          "c": "white"
+         },
+         "Harga × suplai beredar / harga × seluruh suplai."
+        ],
+        [
+         {
+          "t": "Gas · base fee · gwei",
+          "c": "white"
+         },
+         "Biaya transaksi; base fee adalah bagian yang dibakar; 1 gwei = 0,000000001 ETH."
+        ],
+        [
+         {
+          "t": "Priority fee (tip)",
+          "c": "white"
+         },
+         "Biaya tambahan agar transaksi cepat masuk blok; diterima validator."
+        ],
+        [
+         {
+          "t": "Burn (dibakar)",
+          "c": "white"
+         },
+         "ETH dimusnahkan sehingga suplai berkurang."
+        ],
+        [
+         {
+          "t": "ETH baru (issuance)",
+          "c": "white"
+         },
+         "ETH yang dicetak sebagai imbalan bagi staker."
+        ],
+        [
+         {
+          "t": "Deflasi / inflasi bersih",
+          "c": "white"
+         },
+         "Suplai menyusut / bertambah setelah dikurangi yang dibakar."
+        ],
+        [
+         {
+          "t": "Staking · staker · validator",
+          "c": "white"
+         },
+         "Mengunci ETH untuk menjaga jaringan; pelakunya mendapat imbalan."
+        ],
+        [
+         {
+          "t": "L1 / L2 · blob",
+          "c": "white"
+         },
+         "Jaringan utama / jaringan tambahan di atasnya; blob = ruang data murah untuk L2."
+        ],
+        [
+         {
+          "t": "MEV",
+          "c": "white"
+         },
+         "Keuntungan tambahan dari mengatur urutan transaksi di blok."
+        ],
+        [
+         {
+          "t": "ETF spot · ETF staking",
+          "c": "white"
+         },
+         "Reksa dana di bursa saham AS yang memegang ETH asli; versi staking ikut men-stake."
+        ],
+        [
+         {
+          "t": "DEX · DeFi",
+          "c": "white"
+         },
+         "Bursa tanpa perantara / layanan keuangan berbasis smart contract."
+        ],
+        [
+         {
+          "t": "Unlock",
+          "c": "white"
+         },
+         "Token yang dikunci lalu dilepas ke pasar sesuai jadwal."
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "size": 9.5,
+       "pad": 4,
+       "cols": "112px minmax(0px,1fr)",
+       "header": [
+        "ISTILAH",
+        "ARTI SINGKAT"
+       ],
+       "rows": [
+        [
+         {
+          "t": "Perusahaan treasury · mNAV",
+          "c": "white"
+         },
+         "Perusahaan yang menimbun ETH; mNAV = nilai saham ÷ nilai ETH miliknya."
+        ],
+        [
+         {
+          "t": "Cadangan bursa",
+          "c": "white"
+         },
+         "Jumlah ETH yang tersimpan di bursa kripto; makin kecil, makin sedikit yang siap dijual."
+        ],
+        [
+         {
+          "t": "TVL",
+          "c": "white"
+         },
+         "Total aset yang disetor ke aplikasi DeFi di jaringan."
+        ],
+        [
+         {
+          "t": "P/S · MC/TVL",
+          "c": "white"
+         },
+         "MC dibagi fee tahunan / dibagi TVL; makin tinggi, makin “mahal”."
+        ],
+        [
+         {
+          "t": "Skenario Optimis · Dasar · Pesimis",
+          "c": "white"
+         },
+         "Tiga kemungkinan harga akhir 12 bulan, dengan peluang dari Pandangan Pasar Bulanan."
+        ],
+        [
+         {
+          "t": "Harga Perkiraan",
+          "c": "white"
+         },
+         "Target tiap skenario dikali peluangnya, lalu dijumlah."
+        ],
+        [
+         {
+          "t": "Rasio Untung-Rugi (R/R)",
+          "c": "white"
+         },
+         "Potensi naik ÷ potensi turun. ≥2 Harga Murah; 1–1,99 Harga Wajar; &lt;1 Harga Mahal."
+        ],
+        [
+         {
+          "t": "Fundamental",
+          "c": "white"
+         },
+         "Skor 1–10 dari 4 dimensi: tokenomics, jaringan &amp; bisnis, nilai ke pemegang, risiko. Label Sangat Kuat sampai Sangat Lemah."
+        ],
+        [
+         {
+          "t": "EIP · Glamsterdam",
+          "c": "white"
+         },
+         "Usulan perubahan Ethereum / nama upgrade jaringan berikutnya."
+        ],
+        [
+         {
+          "t": "Riba · maysir · gharar",
+          "c": "white"
+         },
+         "Bunga · judi/untung-untungan · ketidakjelasan berlebihan."
+        ],
+        [
+         {
+          "t": "Tathir",
+          "c": "white"
+         },
+         "Menyucikan harta dengan menyedekahkan bagian yang tidak halal."
+        ],
+        [
+         {
+          "t": "Sesuai Syariah · Halal Bersyarat",
+          "c": "white"
+         },
+         "Lolos semua batas dengan skor ≥80 / skor 60–79: boleh dengan syarat yang disebut di status per aktivitas."
+        ],
+        [
+         {
+          "t": "Batas minimum syariah",
+          "c": "white"
+         },
+         "Batas Lapis 1, 3, dan 4; gagal satu berarti Tidak Sesuai Syariah."
+        ],
+        [
+         {
+          "t": "Sikap",
+          "c": "white"
+         },
+         "Saran tindakan dari gabungan label Fundamental dan Harga: Beli Bertahap sampai Hindari."
+        ],
+        [
+         {
+          "t": "Testnet · mainnet",
+          "c": "white"
+         },
+         "Jaringan uji coba / jaringan utama yang dipakai sungguhan."
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Satuan: jt = juta, M = miliar, T = triliun (dolar AS). “(est.)” = perkiraan analis. “N/A” = data tidak tersedia untuk publik."
+    }
+   ]
+  }
+ ]
+}

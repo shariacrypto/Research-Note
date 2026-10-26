@@ -1,0 +1,12 @@
+{
+  "name": "shariacrypto-research",
+  "private": true,
+  "description": "Toolkit Shariacrypto Research Note (cek halaman dengan Playwright)",
+  "scripts": {
+    "check": "node toolkit/rn_check.js",
+    "setup": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}

@@ -1,0 +1,945 @@
+{
+ "meta": {
+  "title": "Shariacrypto Research Note — Bitcoin (BTC) · Analisis On-Chain (percontohan) — 19 Okt 2026",
+  "header_line": "Bitcoin (BTC) · Analisis On-Chain · 19 Okt 2026"
+ },
+ "disclaimers": {
+  "A": "Shariacrypto Research Note adalah produk analitik internal. Bukan fatwa, bukan saran investasi. Data on-chain dari sumber publik (<span data-ed=\"1\">BitInfoCharts, Glassnode, CryptoQuant, Santiment, Arkham via media</span>). Alamat dompet ≠ entitas; label yang belum terverifikasi ditandai. Angka bertanda (est.) adalah estimasi analis.",
+  "B": "Dokumen ini hanya untuk keperluan edukasi dan riset internal Shariacrypto. BUKAN saran investasi. BUKAN fatwa."
+ },
+ "pages": [
+  {
+   "label": "On-chain 1",
+   "subtitle": "Analisis on-chain (1/3): siapa yang memegang &amp; siapa yang bergerak",
+   "blocks": [
+    {
+     "type": "bigsec",
+     "num": "3",
+     "title": "Analisis On-Chain",
+     "mt": 16
+    },
+    {
+     "type": "text",
+     "html": "Bagian ini membaca jejak di blockchain untuk menjawab: <strong style=\"color: var(--white);\">siapa yang membeli, siapa yang menjual, dan apakah itu mendukung tesis?</strong> Satu alamat belum tentu satu orang; bursa, ETF dan kustodian menyimpan milik jutaan orang di segelintir alamat.",
+     "muted": true,
+     "mb": 6
+    },
+    {
+     "type": "sub",
+     "num": "3.1",
+     "title": "RINGKASAN SINYAL ON-CHAIN",
+     "right": "data s.d. 18–19 Okt 2026"
+    },
+    {
+     "type": "table",
+     "cols": "150px 92px minmax(0px,1.4fr) minmax(0px,1fr)",
+     "header": [
+      "BLOK",
+      "SINYAL",
+      "ANGKA KUNCI",
+      "ARTINYA"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Peta pemegang",
+        "c": "white"
+       },
+       {
+        "dot": "green",
+        "t": "Positif"
+       },
+       "Institusi (ETF + perusahaan + pemerintah) ±3,2 jt BTC = 16%",
+       "Pembeli berjangka panjang makin besar porsinya"
+      ],
+      [
+       {
+        "t": "Dompet terbesar",
+        "c": "white"
+       },
+       {
+        "dot": "gold",
+        "t": "Netral"
+       },
+       "Cold wallet Binance −52.493 BTC (30 hr); 4 dompet besar baru tak berlabel",
+       "Belum ada akumulasi baru yang terverifikasi"
+      ],
+      [
+       {
+        "t": "Perilaku kohort",
+        "c": "white"
+       },
+       {
+        "dot": "gold",
+        "t": "Campuran"
+       },
+       "100–1.000 BTC menambah; &gt;10.000 BTC menjual (60 hr)",
+       "Pembeli menengah menahan, kelompok terbesar keluar"
+      ],
+      [
+       {
+        "t": "Arus bursa",
+        "c": "white"
+       },
+       {
+        "dot": "orange",
+        "t": "Waspada"
+       },
+       "Cadangan 2,67 → 2,68 jt; permintaan spot 30 hr ≈ 0",
+       "Kenaikan ditopang leverage, bukan pembeli spot"
+      ],
+      [
+       {
+        "t": "Umur koin &amp; laba",
+        "c": "white"
+       },
+       {
+        "dot": "green",
+        "t": "Positif"
+       },
+       "Harga $82.068 di atas harga modal ETF ($81,5rb) &amp; rata-rata pasar ($78rb)",
+       "Aksi jual rugi sudah habis; batas bawah jelas"
+      ],
+      [
+       {
+        "t": "Kualitas aktivitas",
+        "c": "white"
+       },
+       {
+        "dot": "orange",
+        "t": "Lemah"
+       },
+       "Fee hanya 0,4% imbalan penambang; median fee $0,03",
+       "Permintaan ruang blok sepi; jaringan bergantung subsidi"
+      ]
+     ],
+     "align": [
+      "l",
+      "l",
+      "l",
+      "l"
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Kesimpulan: struktur pemegang sehat dan level harga modal memberi lantai di $78–81,5rb, tetapi pembelian spot sedang kosong. Sinyal on-chain mendukung R/R positif hanya bila arus ETF kembali masuk (C1)."
+    },
+    {
+     "type": "sub",
+     "num": "3.2",
+     "title": "PETA PEMEGANG BERBASIS ENTITAS",
+     "mt": 6,
+     "right": "suplai 20,09 jt BTC"
+    },
+    {
+     "type": "card",
+     "label": "SIAPA MEMEGANG BTC",
+     "blocks": [
+      {
+       "type": "donut",
+       "size": 150,
+       "thick": 24,
+       "center_top": "20,09 jt",
+       "center_bottom": "BTC beredar",
+       "slices": [
+        {
+         "label": "Satoshi &amp; koin hilang (est.)",
+         "value": 3.55,
+         "color": "muted",
+         "display": "3,1–4,0 jt",
+         "share": "±18%"
+        },
+        {
+         "label": "Bursa (cadangan)",
+         "value": 2.68,
+         "color": "orange",
+         "display": "2,68 jt",
+         "share": "13,3%"
+        },
+        {
+         "label": "ETF spot AS",
+         "value": 1.293,
+         "color": "green",
+         "display": "1,29 jt",
+         "share": "6,4%"
+        },
+        {
+         "label": "Perusahaan publik",
+         "value": 1.279,
+         "color": "blue",
+         "display": "1,28 jt",
+         "share": "6,4%"
+        },
+        {
+         "label": "Pemerintah",
+         "value": 0.646,
+         "color": "gold",
+         "display": "0,65 jt",
+         "share": "3,2%"
+        },
+        {
+         "label": "Individu, whale, dana, penambang (sisa)",
+         "value": 10.65,
+         "color": "info",
+         "display": "±10,6 jt",
+         "share": "±53%"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "label": "SEBARAN BTC MENURUT BESAR SALDO ALAMAT",
+     "mt": 4,
+     "blocks": [
+      {
+       "type": "bars",
+       "label_width": 150,
+       "max": 30,
+       "rows": [
+        {
+         "label": "&lt; 1 BTC",
+         "value": 6.93,
+         "color": "green",
+         "display": "6,9% · 58,6 jt alamat"
+        },
+        {
+         "label": "1–10 BTC",
+         "value": 10.14,
+         "color": "green",
+         "display": "10,1% · 820rb alamat"
+        },
+        {
+         "label": "10–100 BTC",
+         "value": 21.01,
+         "color": "blue",
+         "display": "21,0% · 129,7rb alamat"
+        },
+        {
+         "label": "100–1.000 BTC",
+         "value": 26.22,
+         "color": "blue",
+         "display": "26,2% · 18.391 alamat"
+        },
+        {
+         "label": "1.000–10.000 BTC",
+         "value": 20.9,
+         "color": "blue",
+         "display": "20,9% · 1.941 alamat"
+        },
+        {
+         "label": "10.000–100.000 BTC",
+         "value": 11.32,
+         "color": "green",
+         "display": "11,3% · 83 alamat"
+        },
+        {
+         "label": "≥ 100.000 BTC",
+         "value": 3.47,
+         "color": "green",
+         "display": "3,5% · 4 alamat"
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "BitInfoCharts, 19 Okt 2026. Kelompok besar (≥1.000 BTC) sebagian besar adalah bursa, ETF dan kustodian, bukan perorangan; karena itu peta entitas di atas lebih bermakna daripada tabel alamat."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Institusi kini ±16% suplai, lebih besar dari cadangan bursa. Sisa ±53% tidak bisa dipilah tanpa label entitas berbayar (Arkham/Nansen)."
+    }
+   ]
+  },
+  {
+   "label": "On-chain 2",
+   "subtitle": "Analisis on-chain (2/3): entitas, dompet terbesar &amp; kohort",
+   "blocks": [
+    {
+     "type": "table",
+     "size": 9.5,
+     "cols": "minmax(0px,1.2fr) 74px minmax(0px,1.25fr)",
+     "header": [
+      "ENTITAS",
+      "BTC",
+      "PERUBAHAN · CATATAN"
+     ],
+     "rows": [
+      [
+       {
+        "t": "ETF spot AS",
+        "c": "white"
+       },
+       {
+        "n": "1,293 jt",
+        "c": "body"
+       },
+       "masuk ±$3 M 21 Sep–6 Okt; −$760 jt sejak 7 Okt (s.d. 12 Okt)"
+      ],
+      [
+       {
+        "t": "Perusahaan publik",
+        "c": "white"
+       },
+       {
+        "n": "1,279 jt",
+        "c": "body"
+       },
+       "Strategy ±845rb (Jul); laju beli melambat"
+      ],
+      [
+       {
+        "t": "Pemerintah",
+        "c": "white"
+       },
+       {
+        "n": "645.594",
+        "c": "body"
+       },
+       "AS ±328rb, Tiongkok ±194rb, Inggris ±61rb; belum ada pembelian dana publik"
+      ],
+      [
+       {
+        "t": "Bursa",
+        "c": "white"
+       },
+       {
+        "n": "2,68 jt",
+        "c": "body"
+       },
+       "Naik tipis dari 2,67 jt (awal Okt); bisa karena perpindahan kustodi"
+      ],
+      [
+       {
+        "t": "Satoshi (tak pernah bergerak)",
+        "c": "white"
+       },
+       {
+        "n": "±1,1 jt",
+        "c": "body"
+       },
+       "Bagian dari estimasi koin hilang 3,1–4,0 jt"
+      ]
+     ],
+     "align": [
+      "l",
+      "r",
+      "l"
+     ],
+     "mt": 18
+    },
+    {
+     "type": "sub",
+     "num": "3.3",
+     "title": "DOMPET TERBESAR &amp; DOMPET BESAR BARU",
+     "mt": 12,
+     "right": "BitInfoCharts · 19 Okt"
+    },
+    {
+     "type": "table",
+     "size": 9.5,
+     "cols": "30px minmax(0px,1.25fr) 84px 92px minmax(0px,1.35fr)",
+     "header": [
+      "#",
+      "PEMILIK (LABEL)",
+      "SALDO BTC",
+      "30 HARI",
+      "BACAAN"
+     ],
+     "rows": [
+      [
+       "1",
+       {
+        "t": "Binance (cold wallet)",
+        "c": "white"
+       },
+       {
+        "n": "248.598",
+        "c": "body"
+       },
+       {
+        "n": "—",
+        "c": "muted"
+       },
+       "Cadangan bursa; tidak keluar sejak 2023"
+      ],
+      [
+       "2",
+       {
+        "t": "Binance (cold wallet)",
+        "c": "white"
+       },
+       {
+        "n": "177.342",
+        "c": "body"
+       },
+       {
+        "n": "−52.493",
+        "c": "red"
+       },
+       "Turun 23% sebulan: penarikan nasabah atau pindah dompet internal"
+      ],
+      [
+       "3",
+       {
+        "t": "Robinhood (cold wallet)",
+        "c": "white"
+       },
+       {
+        "n": "140.850",
+        "c": "body"
+       },
+       {
+        "n": "—",
+        "c": "muted"
+       },
+       "Milik nasabah ritel AS"
+      ],
+      [
+       "9",
+       {
+        "t": "Tak berlabel",
+        "c": "gold",
+        "s": "aktif sejak Mar 2024"
+       },
+       {
+        "n": "78.317",
+        "c": "body"
+       },
+       {
+        "n": "masuk rutin",
+        "c": "green"
+       },
+       "Belum pernah mengirim keluar: pola penyimpanan dingin kustodian/ETF"
+      ],
+      [
+       "13",
+       {
+        "t": "Tak berlabel",
+        "c": "gold",
+        "s": "sejak Agu 2025"
+       },
+       {
+        "n": "64.658",
+        "c": "body"
+       },
+       {
+        "n": "—",
+        "c": "muted"
+       },
+       "Diam sejak diisi; perlu label sebelum disebut whale"
+      ],
+      [
+       "19",
+       {
+        "t": "Tak berlabel",
+        "c": "gold",
+        "s": "sejak Mar 2026"
+       },
+       {
+        "n": "41.269",
+        "c": "body"
+       },
+       {
+        "n": "−1.258",
+        "c": "red"
+       },
+       "Dompet baru terbesar 2026; mulai mengirim keluar"
+      ],
+      [
+       "20",
+       {
+        "t": "Tak berlabel",
+        "c": "gold",
+        "s": "sejak Sep 2025"
+       },
+       {
+        "n": "39.945",
+        "c": "body"
+       },
+       {
+        "n": "−8.125",
+        "c": "red"
+       },
+       "Aktif keluar-masuk: perilaku dompet operasional"
+      ]
+     ],
+     "align": [
+      "l",
+      "l",
+      "r",
+      "r",
+      "l"
+     ]
+    },
+    {
+     "type": "card",
+     "label": "CARA KAMI MEMBACA “DOMPET BARU YANG MENGAKUMULASI”",
+     "blocks": [
+      {
+       "type": "text",
+       "html": "Dompet besar baru baru dihitung sebagai akumulasi bila: (1) sumber dananya ditarik dari bursa, bukan dipindah dari dompet lain milik bursa/kustodian yang sama; (2) ditahan ≥14 hari tanpa keluar; (3) tidak cocok dengan pola ETF (masuk harian sesuai arus dana). Dari empat dompet di atas, belum ada yang lolos ketiga syarat. Preseden: “akumulasi whale” Desember 2025 ternyata konsolidasi dompet bursa; setelah disaring, whale justru menjual (CryptoQuant).",
+       "size": 9.5
+      }
+     ],
+     "mt": 8
+    },
+    {
+     "type": "sub",
+     "num": "3.4",
+     "title": "PERILAKU KOHORT · SIAPA MENAMBAH, SIAPA MENGURANGI",
+     "mt": 12,
+     "right": "CryptoQuant · Santiment · Glassnode"
+    },
+    {
+     "type": "grid",
+     "mt": 0,
+     "cols": "minmax(0px,1fr) minmax(0px,1fr)",
+     "align": "start",
+     "items": [
+      {
+       "type": "table",
+       "size": 9.5,
+       "cols": "minmax(0px,1.1fr) 92px minmax(0px,1.2fr)",
+       "header": [
+        "KOHORT",
+        "ARAH",
+        "CATATAN"
+       ],
+       "rows": [
+        [
+         {
+          "t": "100–1.000 BTC",
+          "c": "white"
+         },
+         {
+          "dot": "green",
+          "t": "Menambah"
+         },
+         "Laju melambat dari puncak Sep (60 hr)"
+        ],
+        [
+         {
+          "t": "1.000–10.000 BTC",
+          "c": "white"
+         },
+         {
+          "dot": "gold",
+          "t": "Datar"
+         },
+         "Perubahan bersih ≈ 0 (60 hr)"
+        ],
+        [
+         {
+          "t": "&gt;10.000 BTC",
+          "c": "white"
+         },
+         {
+          "dot": "red",
+          "t": "Menjual"
+         },
+         "Penjual bersih; campur bursa/kustodian"
+        ],
+        [
+         {
+          "t": "Dompet 10–10.000 BTC (jumlah)",
+          "c": "white"
+         },
+         {
+          "dot": "green",
+          "t": "Rekor"
+         },
+         "20.338 dompet, tertinggi sepanjang masa (15 Okt)"
+        ],
+        [
+         {
+          "t": "Holder jangka panjang (&gt;155 hr)",
+          "c": "white"
+         },
+         {
+          "dot": "green",
+          "t": "Menambah"
+         },
+         "Kembali akumulasi sejak Jul; pemegang 1–2 thn mulai jual awal Okt"
+        ]
+       ],
+       "align": [
+        "l",
+        "l",
+        "l"
+       ]
+      },
+      {
+       "type": "card",
+       "label": "ILUSTRASI SEDERHANA",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Bayangkan tiga kelompok pembeli. Kelompok menengah (100–1.000 BTC) masih menambah stok. Kelompok besar (1.000–10.000) berhenti belanja. Kelompok raksasa (&gt;10.000) menjual, tetapi sebagian besar raksasa ini adalah bursa dan kustodian yang memindahkan dana nasabah, jadi sinyalnya lebih lemah dari kelihatannya.",
+         "size": 9.5
+        },
+        {
+         "type": "bars",
+         "label_width": 120,
+         "max": 3,
+         "rows": [
+          {
+           "label": "100–1.000 BTC",
+           "value": 2,
+           "color": "green",
+           "display": "menambah"
+          },
+          {
+           "label": "1.000–10.000",
+           "value": 1,
+           "color": "gold",
+           "display": "datar"
+          },
+          {
+           "label": "&gt;10.000 BTC",
+           "value": 2,
+           "color": "red",
+           "display": "menjual"
+          }
+         ]
+        },
+        {
+         "type": "note",
+         "html": "Batang menunjukkan arah, bukan besaran; CryptoQuant tidak merilis angka gratis per kohort."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "On-chain 3",
+   "subtitle": "Analisis on-chain (3/3): perilaku, arus, harga modal &amp; aktivitas",
+   "blocks": [
+    {
+     "type": "sub",
+     "num": "3.5",
+     "title": "ARUS BURSA &amp; PERMINTAAN SPOT",
+     "mt": 18
+    },
+    {
+     "type": "table",
+     "size": 9.5,
+     "cols": "minmax(0px,1.3fr) 100px 100px minmax(0px,1.4fr)",
+     "header": [
+      "UKURAN",
+      "KINI",
+      "SEBELUMNYA",
+      "ARTINYA"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Cadangan BTC di bursa",
+        "c": "white"
+       },
+       {
+        "n": "2,68 jt",
+        "c": "body"
+       },
+       {
+        "n": "2,67 jt",
+        "c": "body",
+        "s": "awal Okt"
+       },
+       "Naik tipis; belum tanda jual besar (CryptoQuant, 18 Okt)"
+      ],
+      [
+       {
+        "t": "Permintaan spot 30 hari",
+        "c": "white"
+       },
+       {
+        "n": "≈ 0 / negatif",
+        "c": "orange"
+       },
+       {
+        "n": "positif",
+        "c": "body",
+        "s": "Sep"
+       },
+       "Pembeli langsung absen; kenaikan ditopang perpetual"
+      ],
+      [
+       {
+        "t": "Arus ETF spot AS",
+        "c": "white"
+       },
+       {
+        "n": "−$760 jt",
+        "c": "red",
+        "s": "7–12 Okt"
+       },
+       {
+        "n": "masuk ±$3 M",
+        "c": "body",
+        "s": "21 Sep–6 Okt"
+       },
+       "Pembeli struktural terbesar berbalik keluar"
+      ],
+      [
+       {
+        "t": "Cold wallet Binance #2",
+        "c": "white"
+       },
+       {
+        "n": "177.342",
+        "c": "body"
+       },
+       {
+        "n": "229.835",
+        "c": "body",
+        "s": "±19 Sep"
+       },
+       "−52.493 BTC: penarikan atau penataan dompet"
+      ]
+     ],
+     "align": [
+      "l",
+      "r",
+      "r",
+      "l"
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Cadangan bursa versi CoinGlass (2,43 jt, Apr 2026) memakai daftar alamat berbeda; jangan dibandingkan langsung dengan CryptoQuant."
+    },
+    {
+     "type": "sub",
+     "num": "3.6",
+     "title": "UMUR KOIN &amp; HARGA MODAL PEMEGANG",
+     "mt": 12,
+     "right": "harga $82.068 · 19 Okt"
+    },
+    {
+     "type": "grid",
+     "mt": 0,
+     "cols": "minmax(0px,1.15fr) minmax(0px,1fr)",
+     "align": "start",
+     "items": [
+      {
+       "type": "card",
+       "label": "TANGGA HARGA MODAL (DI MANA PEMEGANG IMPAS)",
+       "blocks": [
+        {
+         "type": "bars",
+         "label_width": 150,
+         "max": 31000,
+         "rows": [
+          {
+           "label": "Pemegang 1–2 thn",
+           "value": 30000,
+           "color": "red",
+           "display": "±$100rb"
+          },
+          {
+           "label": "Pemegang 6–12 bln",
+           "value": 18000,
+           "color": "orange",
+           "display": "±$88rb"
+          },
+          {
+           "label": "Harga kini",
+           "value": 12068,
+           "color": "white",
+           "display": "$82.068"
+          },
+          {
+           "label": "Harga modal ETF spot AS",
+           "value": 11500,
+           "color": "green",
+           "display": "±$81,5rb"
+          },
+          {
+           "label": "Rata-rata pasar aktif",
+           "value": 8000,
+           "color": "green",
+           "display": "±$78rb"
+          },
+          {
+           "label": "Holder jangka pendek",
+           "value": 3100,
+           "color": "green",
+           "display": "±$73,1rb"
+          }
+         ]
+        },
+        {
+         "type": "note",
+         "html": "Panjang batang = jarak di atas $70rb. Merah/oranye: pemegang masih rugi dan cenderung menjual saat impas (penghalang). Hijau: pemegang untung; area ini cenderung dibela (lantai)."
+        }
+       ]
+      },
+      {
+       "type": "card",
+       "label": "APA YANG TERJADI DI TANGGA ITU",
+       "blocks": [
+        {
+         "type": "ul",
+         "items": [
+          "<strong style=\"color: var(--white);\">Lantai:</strong> harga dua kali menyentuh harga modal ETF ($81,5rb) pada 8 &amp; 13 Okt dan ditutup di atasnya.",
+          "<strong style=\"color: var(--white);\">Penghalang:</strong> $88rb; penutupan harian di atasnya + arus ETF masuk = sinyal naik (Glassnode).",
+          "<strong style=\"color: var(--white);\">Jual rugi habis:</strong> kerugian holder jangka panjang turun ±85% dari puncak 12 Agu; kini 4 koin dijual untung per 1 koin rugi.",
+          "<strong style=\"color: var(--white);\">Koin tua bergerak:</strong> 4.582 BTC (diam 6 thn, 12 Okt) dan 411 BTC (13 thn, 18 Okt) pindah ke alamat baru, bukan ke bursa: kemungkinan peningkatan keamanan dompet."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "sub",
+     "num": "3.7",
+     "title": "KUALITAS AKTIVITAS JARINGAN",
+     "mt": 12,
+     "right": "BitInfoCharts · 18–19 Okt"
+    },
+    {
+     "type": "table",
+     "size": 9.5,
+     "cols": "minmax(0px,1.2fr) 110px minmax(0px,1.6fr)",
+     "header": [
+      "UKURAN",
+      "KINI",
+      "ARTINYA"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Transaksi per hari",
+        "c": "white"
+       },
+       {
+        "n": "640.131",
+        "c": "body"
+       },
+       "Wajar; tidak ada lonjakan aktivitas baru"
+      ],
+      [
+       {
+        "t": "Fee median / rata-rata",
+        "c": "white"
+       },
+       {
+        "n": "$0,034 / $0,27",
+        "c": "body"
+       },
+       "Ruang blok sepi; antrean hampir kosong"
+      ],
+      [
+       {
+        "t": "Fee per blok vs subsidi",
+        "c": "white"
+       },
+       {
+        "n": "0,0126 BTC",
+        "c": "orange",
+        "s": "0,4% imbalan"
+       },
+       "Keamanan hampir seluruhnya dibayar BTC baru"
+      ],
+      [
+       {
+        "t": "Hashrate",
+        "c": "white"
+       },
+       {
+        "n": "985 EH/s",
+        "c": "body"
+       },
+       "Mendekati 1 ZH/s; penambang belum menyerah"
+      ],
+      [
+       {
+        "t": "Alamat aktif 24 jam",
+        "c": "white"
+       },
+       {
+        "n": "64.415",
+        "c": "muted",
+        "s": "definisi BitInfoCharts"
+       },
+       "Tidak sebanding dengan angka Glassnode; dipakai hanya untuk tren"
+      ]
+     ],
+     "align": [
+      "l",
+      "r",
+      "l"
+     ]
+    },
+    {
+     "type": "sub",
+     "num": "3.8",
+     "title": "DARI ON-CHAIN KE TESIS · YANG DIPANTAU",
+     "mt": 12
+    },
+    {
+     "type": "table",
+     "size": 9.5,
+     "cols": "minmax(0px,1.5fr) 104px minmax(0px,1.35fr) 58px",
+     "header": [
+      "INDIKATOR ON-CHAIN",
+      "KINI",
+      "TARGET / BATAS WASPADA",
+      "TERKAIT"
+     ],
+     "rows": [
+      [
+       "Arus ETF 4 minggu",
+       "negatif (Okt)",
+       "positif lagi · waspada 4 mgg negatif",
+       "C1"
+      ],
+      [
+       "Harga vs harga modal ETF",
+       "+0,7%",
+       "waspada tutup harian &lt;$81,5rb",
+       "R1"
+      ],
+      [
+       "Cadangan bursa (CryptoQuant)",
+       "2,68 jt",
+       "waspada naik &gt;0,1 jt / 30 hari",
+       "R1"
+      ],
+      [
+       "Kohort 100–1.000 BTC",
+       "menambah",
+       "tetap menambah · waspada berbalik",
+       "C1"
+      ],
+      [
+       "Permintaan spot 30 hari",
+       "≈ 0",
+       "positif · waspada negatif &gt;2 mgg",
+       "R1"
+      ],
+      [
+       "Koin tua (&gt;5 thn) ke bursa",
+       "0 terdeteksi",
+       "waspada setoran &gt;1.000 BTC ke bursa",
+       "R1"
+      ]
+     ],
+     "align": [
+      "l",
+      "r",
+      "l",
+      "r"
+     ]
+    }
+   ]
+  }
+ ]
+}

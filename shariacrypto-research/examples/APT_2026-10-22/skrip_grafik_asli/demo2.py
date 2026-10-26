@@ -1,0 +1,58 @@
+import matplotlib; matplotlib.use('Agg')
+import matplotlib.pyplot as plt, numpy as np
+from matplotlib.patches import Rectangle
+plt.rcParams.update({'font.family':'Inter','font.size':10})
+BG='#072E1A'; GRID='#1E4A2A'; TXT='#E8F0EA'; MUT='#8FA89A'; G='#16C784'; Y='#FFC107'; R='#FF8A8A'; B='#40C4FF'; O='#EF9F27'
+def idr(x,d=1): return f"{x:,.{d}f}".replace(',','X').replace('.',',').replace('X','.').replace('-','−')
+def frame(fig,title,sub,src):
+    fig.patch.set_facecolor(BG)
+    fig.text(0.035,0.94,title,color=TXT,fontsize=15,fontweight='bold',va='top')
+    fig.text(0.035,0.875,sub,color=MUT,fontsize=9,va='top')
+    fig.text(0.965,0.94,'SHARIACRYPTO',color=G,fontsize=10,fontweight='bold',ha='right',va='top')
+    fig.text(0.965,0.025,src,color=MUT,fontsize=7.5,ha='right')
+# 1 breakeven log
+tx=np.logspace(np.log10(5e6),np.log10(3e9),500); S0=1209e6
+now=(19.4e6-tx*365*0.00058)/S0*100; pre=(43e6-tx*365*0.000058)/S0*100
+fig=plt.figure(figsize=(10,5.6),dpi=150); ax=fig.add_axes([0.08,0.13,0.88,0.68]); ax.set_facecolor(BG)
+for s in ax.spines.values(): s.set_visible(False)
+ax.tick_params(colors=MUT,length=0); ax.grid(axis='y',color=GRID,lw=.8)
+ax.axhline(0,color=MUT,lw=1)
+ax.fill_between(tx,now,0,where=now<0,color=G,alpha=.12)
+ax.plot(tx,pre,color=MUT,lw=1.6,ls=(0,(6,3,1,3)),label='Aturan lama (imbalan 5,19%, gas 1×)')
+ax.plot(tx,now,color=G,lw=2.6,label='Aturan kini (imbalan 2,6%, gas 10×)')
+ax.set_xscale('log'); ax.set_xlim(5e6,3e9); ax.set_ylim(-10,5)
+ticks=[5e6,1e7,3e7,1e8,3e8,1e9,3e9]; ax.set_xticks(ticks); ax.set_xticklabels(['5 jt','10 jt','30 jt','100 jt','300 jt','1 M','3 M'])
+ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,p:('+' if v>0 else '')+idr(v,0)+'%'))
+def dot(x,y,c): ax.plot([x],[y],'o',ms=8,mfc=BG,mec=c,mew=2.2,zorder=5)
+y9=(19.4e6-9.1e6*365*0.00058)/S0*100; dot(9.1e6,y9,G); ax.text(9.1e6,y9+0.7,'Kini: 9,1 jt transaksi/hari\nsuplai +'+idr(y9,1)+'%/th',color=TXT,fontsize=9,ha='left')
+be=19.4e6/(365*0.00058); dot(be,0,Y); ax.text(be,0.8,'Impas ±91 jt/hari\n(±10× hari ini)',color=Y,fontsize=9,ha='center',fontweight='bold')
+bp=43e6/(365*0.000058); dot(bp,0,MUT); ax.text(bp,-1.6,'Impas aturan lama\n±2 M/hari',color=MUT,fontsize=8.5,ha='right')
+ax.axvspan(3e7,5e7,color=Y,alpha=.07); ax.text(3.9e7,-8.6,'Order book\nseukuran Lighter',color=Y,fontsize=8,ha='center')
+ax.axvspan(7e7,1.7e8,color=B,alpha=.07); ax.text(1.1e8,-8.6,'Seukuran\nHyperliquid',color=B,fontsize=8,ha='center')
+ax.text(5.6e6,4.2,'↑ suplai bertambah',color=O,fontsize=9); ax.text(5.6e6,-1.3,'↓ APT menyusut',color=G,fontsize=9)
+ax.set_xlabel('Transaksi per hari (skala log)',color=MUT)
+ax.legend(loc='lower left',frameon=False,labelcolor=TXT,fontsize=8.5,bbox_to_anchor=(0.0,0.08))
+frame(fig,'APT baru menyusut bila transaksi naik ±10× dari sekarang','APT baru ±19,4 juta/th (2,6% × ±773 juta di-stake); dibakar ±0,00058 APT per transaksi (campuran transaksi kini, 98% Decibel)',
+      'Data s.d. 27 Sep 2026 · Sumber: Blockworks Research (parameter), hitungan Shariacrypto')
+fig.savefig('impas_v2.png',facecolor=BG); plt.close(fig)
+# 2 supply map
+fig=plt.figure(figsize=(10,5.6),dpi=150); ax=fig.add_axes([0.035,0.08,0.93,0.74]); ax.set_facecolor(BG); ax.axis('off')
+ax.set_xlim(0,2100); ax.set_ylim(0,100)
+def box(x,y,w,h,ec,fc,a=.18,lw=1.8): ax.add_patch(Rectangle((x,y),w,h,ec=ec,fc=fc,alpha=1,lw=0)); ax.add_patch(Rectangle((x,y),w,h,ec=ec,fc=ec,alpha=a,lw=0)); ax.add_patch(Rectangle((x,y),w,h,ec=ec,fc='none',lw=lw))
+ax.plot([0,2100],[92,92],color=MUT,lw=1); ax.text(1050,95,'BATAS SUPLAI 2.100 juta APT (Proposal #183)',color=TXT,ha='center',fontsize=10,fontweight='bold')
+box(0,64,1209,22,B,BG); ax.text(604,78,'SUDAH ADA: 1.209 juta',color=B,ha='center',fontsize=11,fontweight='bold'); ax.text(604,70,'1.000 juta genesis + 211 juta imbalan staking − 1,2 juta dibakar',color=TXT,ha='center',fontsize=8.5)
+box(1209,64,891,22,MUT,BG,a=.06); ax.text(1654,78,'BELUM DICETAK: 891 juta',color=MUT,ha='center',fontsize=11,fontweight='bold'); ax.text(1654,70,'ruang imbalan staking; habis ±2075 pada laju kini',color=TXT,ha='center',fontsize=8.5)
+box(0,34,874,22,G,BG); ax.text(437,48,'BEREDAR: 874 juta',color=G,ha='center',fontsize=11,fontweight='bold'); ax.text(437,40,'sudah terbuka, di tangan holder',color=TXT,ha='center',fontsize=8.5)
+box(874,34,335,22,Y,BG,a=.08); ax.text(1041,48,'BELUM TERBUKA',color=Y,ha='center',fontsize=9.5,fontweight='bold'); ax.text(1041,40,'335 juta',color=TXT,ha='center',fontsize=9)
+box(874,6,210,20,R,BG,a=.2); ax.text(979,16,'210 juta',color=R,ha='center',fontsize=10,fontweight='bold')
+box(1084,6,119,20,O,BG,a=.2); ax.text(1143,16,'±119',color=O,ha='center',fontsize=9,fontweight='bold')
+box(1203,6,6,20,B,BG,a=.6,lw=1)
+for x in (874,1209): ax.plot([x,x],[56,64],color=MUT,lw=.8,ls=':'); ax.plot([x,x],[26,34],color=MUT,lw=.8,ls=':')
+ax.plot([0,0],[56,64],color=MUT,lw=.8,ls=':')
+ax.text(1260,20,'210 juta dikunci permanen yayasan: tidak pernah dijual',color=R,fontsize=9)
+ax.text(1260,13,'±119 juta jatah komunitas & yayasan, dilepas s.d. 2032 (±20 juta/th)',color=O,fontsize=9)
+ax.text(1260,6,'±7 juta cliff terakhir investor & tim, selesai Okt 2026',color=B,fontsize=9)
+ax.text(437,20,'±0,45 juta APT terkunci sebagai\ndeposit penyimpanan (bertambah\nseiring pemakaian)',color=MUT,fontsize=8,ha='center')
+frame(fig,'Dari 2,1 miliar APT, hanya 874 juta yang benar-benar beredar','Peta suplai dalam juta APT; 210 juta yang dikunci yayasan adalah bagian dari jatah yang belum terbuka',
+      'Data s.d. 26 Sep 2026 · Sumber: Blockworks Research, dasbor suplai Aptos; digambar ulang Shariacrypto')
+fig.savefig('peta_suplai.png',facecolor=BG); plt.close(fig)

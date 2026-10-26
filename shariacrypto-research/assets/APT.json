@@ -1,0 +1,44 @@
+{
+  "ticker": "APT",
+  "nama": "Aptos",
+  "modul": "Platform kontrak pintar (L1)",
+  "coingecko_id": "aptos",
+  "cmc_slug": "aptos",
+  "binance_symbol": "APTUSDT",
+  "defillama": {
+    "chain": "Aptos",
+    "fees_slug": "aptos",
+    "_catatan": "chain = nama rantai di DefiLlama (TVL, fee aplikasi, DEX, stablecoin). fees_slug = halaman fee token itu sendiri (gas jaringan untuk L1, atau slug protokol untuk token DeFi). Cek di defillama.com/chain/<chain> dan defillama.com/protocol/<slug>."
+  },
+  "dexscreener": {"chain": "aptos", "token": "0x1::aptos_coin::AptosCoin"},
+  "github": ["aptos-labs/aptos-core"],
+  "suplai_manual": {
+    "_catatan": "Komponen suplai TIDAK beredar dari sumber primer (explorer, dokumen resmi, kontrak vesting). Format: [jumlah, sumber] atau [jumlah, sumber, induk] bila komponen adalah BAGIAN dari komponen lain (tidak dijumlah dua kali).",
+    "waktu": "2026-09-26",
+    "batas_maks": [2100000000, "AIP-140 / Proposal #183 (1 Mar 2026)"],
+    "komponen": {
+      "belum_terbuka": [335000000, "Blockworks Research; aptosnetwork.com/apt-supply"],
+      "dikunci_permanen_yayasan": [210000000, "Proposal #183", "belum_terbuka"]
+    }
+  },
+  "syariah_kategori": {
+    "_catatan": "Kategori DefiLlama → halal | nonhalal | tinjau. 'tinjau' wajib diklasifikasi manual per aplikasi (syariah_override). Usulan awal, perlu ditetapkan Komite Syariah.",
+    "Dexs": "halal", "DEX Aggregator": "halal", "Chain": "halal", "Bridge": "halal",
+    "Liquid Staking": "halal", "Staking Pool": "halal", "Payments": "halal", "Wallets": "halal",
+    "Lending": "nonhalal", "CDP": "nonhalal", "Derivatives": "nonhalal", "Options": "nonhalal",
+    "Prediction Market": "nonhalal", "Gambling": "nonhalal", "Leveraged Farming": "nonhalal",
+    "Basis Trading": "nonhalal",
+    "RWA": "tinjau", "Yield": "tinjau", "Yield Aggregator": "tinjau", "Launchpad": "tinjau",
+    "Gaming": "tinjau", "NFT Marketplace": "tinjau", "Services": "tinjau"
+  },
+  "syariah_override": {
+    "_catatan": "slug DefiLlama → kelas, menimpa kategori. Contoh: dana tokenisasi berbasis obligasi/T-bill = nonhalal.",
+    "securitize": "nonhalal"
+  },
+  "pembanding": [
+    {"ticker": "ETH", "coingecko_id": "ethereum", "fees_slug": "ethereum"},
+    {"ticker": "SOL", "coingecko_id": "solana", "fees_slug": "solana"},
+    {"ticker": "NEAR", "coingecko_id": "near", "fees_slug": "near"},
+    {"ticker": "SUI", "coingecko_id": "sui", "fees_slug": "sui"}
+  ]
+}

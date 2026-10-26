@@ -1,0 +1,601 @@
+{
+ "defaults": {
+  "src": "Sumber wajib diisi"
+ },
+ "charts": [
+  {
+   "type": "line",
+   "out": "ex_index.png",
+   "index": true,
+   "h": 3.6,
+   "ylim": [
+    0,
+    118
+   ],
+   "title": "APT turun ±77% dalam setahun, hampir tiga kali BTC",
+   "sub": "Harga penutupan mingguan, 20 Okt 2025 = 100",
+   "src": "Data s.d. 19 Okt 2026 · Sumber: Yahoo Finance; beta 1,32 hitungan Shariacrypto",
+   "series": [
+    {
+     "label": "BTC",
+     "color": "Y",
+     "x": [
+      "2025-10-20",
+      "2025-10-27",
+      "2025-11-03",
+      "2025-11-10",
+      "2025-11-17",
+      "2025-11-24",
+      "2025-12-01",
+      "2025-12-08",
+      "2025-12-15",
+      "2025-12-22",
+      "2025-12-29",
+      "2026-01-05",
+      "2026-01-12",
+      "2026-01-19",
+      "2026-01-26",
+      "2026-02-02",
+      "2026-02-09",
+      "2026-02-16",
+      "2026-02-23",
+      "2026-03-02",
+      "2026-03-09",
+      "2026-03-16",
+      "2026-03-23",
+      "2026-03-30",
+      "2026-04-06",
+      "2026-04-13",
+      "2026-04-20",
+      "2026-04-27",
+      "2026-05-04",
+      "2026-05-11",
+      "2026-05-18",
+      "2026-05-25",
+      "2026-06-01",
+      "2026-06-08",
+      "2026-06-15",
+      "2026-06-22",
+      "2026-06-29",
+      "2026-07-06",
+      "2026-07-13",
+      "2026-07-20",
+      "2026-07-27",
+      "2026-08-03",
+      "2026-08-10",
+      "2026-08-17",
+      "2026-08-24",
+      "2026-08-31",
+      "2026-09-07",
+      "2026-09-14",
+      "2026-09-21",
+      "2026-09-28",
+      "2026-10-05",
+      "2026-10-12",
+      "2026-10-19"
+     ],
+     "y": [
+      114472.45,
+      110639.63,
+      104719.64,
+      94177.08,
+      86805.01,
+      90394.31,
+      90405.64,
+      88175.18,
+      88621.75,
+      87835.84,
+      91413.49,
+      90827.46,
+      93634.43,
+      86572.22,
+      76974.45,
+      70264.73,
+      68788.19,
+      67659.39,
+      65738.1,
+      65969.78,
+      72789.91,
+      67845.21,
+      65954.92,
+      68981.9,
+      70753.41,
+      73856.35,
+      78657.54,
+      78538.23,
+      82138.93,
+      77429.35,
+      76981.13,
+      73579.69,
+      63239.52,
+      65710.4,
+      63237.54,
+      59532.34,
+      63547.88,
+      63758.22,
+      64690.8,
+      65340.3,
+      63482.0,
+      64844.89,
+      62818.65,
+      77755.27,
+      77667.57,
+      80350.05,
+      76838.16,
+      81142.61,
+      84458.09,
+      86480.3,
+      83679.47,
+      82017.6,
+      82941.0
+     ],
+     "lw": 2
+    },
+    {
+     "label": "APT",
+     "color": "G",
+     "x": [
+      "2025-10-20",
+      "2025-10-27",
+      "2025-11-03",
+      "2025-11-10",
+      "2025-11-17",
+      "2025-11-24",
+      "2025-12-01",
+      "2025-12-08",
+      "2025-12-15",
+      "2025-12-22",
+      "2025-12-29",
+      "2026-01-05",
+      "2026-01-12",
+      "2026-01-19",
+      "2026-01-26",
+      "2026-02-02",
+      "2026-02-09",
+      "2026-02-16",
+      "2026-02-23",
+      "2026-03-02",
+      "2026-03-09",
+      "2026-03-16",
+      "2026-03-23",
+      "2026-03-30",
+      "2026-04-06",
+      "2026-04-13",
+      "2026-04-20",
+      "2026-04-27",
+      "2026-05-04",
+      "2026-05-11",
+      "2026-05-18",
+      "2026-05-25",
+      "2026-06-01",
+      "2026-06-08",
+      "2026-06-15",
+      "2026-06-22",
+      "2026-06-29",
+      "2026-07-06",
+      "2026-07-13",
+      "2026-07-20",
+      "2026-07-27",
+      "2026-08-03",
+      "2026-08-10",
+      "2026-08-17",
+      "2026-08-24",
+      "2026-08-31",
+      "2026-09-07",
+      "2026-09-14",
+      "2026-09-21",
+      "2026-09-28",
+      "2026-10-05",
+      "2026-10-12",
+      "2026-10-19"
+     ],
+     "y": [
+      3.5824,
+      3.38,
+      3.2379,
+      2.8288,
+      2.337,
+      1.9884,
+      1.707,
+      1.6174,
+      1.5763,
+      1.7219,
+      1.939,
+      1.7672,
+      1.7301,
+      1.4866,
+      1.2369,
+      1.0679,
+      0.933,
+      0.8409,
+      0.9289,
+      0.9286,
+      0.9341,
+      0.928,
+      0.9202,
+      0.8492,
+      0.8114,
+      0.9113,
+      0.9844,
+      0.987,
+      1.1536,
+      0.9282,
+      0.9446,
+      0.9436,
+      0.6702,
+      0.6799,
+      0.6471,
+      0.5744,
+      0.6319,
+      0.6101,
+      0.5946,
+      0.6275,
+      0.562,
+      0.5887,
+      0.5179,
+      0.6396,
+      0.5181,
+      0.6244,
+      0.5881,
+      0.7379,
+      0.8654,
+      0.8017,
+      0.9005,
+      0.7838,
+      0.8277
+     ]
+    }
+   ],
+   "spans": [
+    {
+     "x0": "2026-03-01",
+     "x1": "2026-03-19",
+     "text": "1–19 Mar: batas suplai,\nstaking ½, gas 10×",
+     "y": 114
+    }
+   ],
+   "vlines": [
+    {
+     "x": "2026-10-12",
+     "text": "12 Okt: unlock\ntim & investor selesai",
+     "y": 114
+    }
+   ]
+  },
+  {
+   "type": "bars",
+   "out": "ex_unlock.png",
+   "cats": [
+    "Okt23–\nSep24",
+    "Okt24–\nSep25",
+    "Okt25–\nSep26",
+    "Okt26–\nSep27",
+    "Okt27–\nSep28",
+    "Okt28–\nSep29",
+    "Okt29–\nSep30"
+   ],
+   "values": [
+    135.7,
+    135.7,
+    135.7,
+    20,
+    20,
+    20,
+    20
+   ],
+   "colors": [
+    "O",
+    "O",
+    "O",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "labels": [
+    "135,7",
+    "135,7",
+    "135,7",
+    "±20",
+    "±20",
+    "±20",
+    "±20"
+   ],
+   "ymax": 155,
+   "hlines": [
+    {
+     "y": 19.4,
+     "color": "Y",
+     "text": "Garis kuning: APT baru dari staking\n±19,4 jt/th, terpisah dari unlock",
+     "tx": 6.45,
+     "ty": 60,
+     "ha": "right"
+    }
+   ],
+   "title": "Token yang dilepas ke pasar turun ±85% mulai Oktober 2026",
+   "sub": "Unlock per 12 bulan (juta APT); tidak termasuk APT baru dari staking",
+   "src": "Sumber: Everstake, Blockworks Research; hitungan Shariacrypto (est.)"
+  },
+  {
+   "type": "hbars",
+   "out": "ex_fee.png",
+   "items": [
+    {
+     "label": "Securitize · dana tokenisasi (mayoritas berbasis bunga)",
+     "value": 623000,
+     "color": "O"
+    },
+    {
+     "label": "Decibel · perpetual berleverage",
+     "value": 559000,
+     "color": "R"
+    },
+    {
+     "label": "Jaringan Aptos · gas dibakar",
+     "value": 141000,
+     "color": "G"
+    },
+    {
+     "label": "Echelon · pinjaman berbunga",
+     "value": 64000,
+     "color": "R"
+    },
+    {
+     "label": "DEX spot · Thala, Hyperion, PancakeSwap",
+     "value": 32000,
+     "color": "G"
+    }
+   ],
+   "title": "±97% fee aplikasi di Aptos datang dari dana berbunga, perpetual, dan pinjaman",
+   "sub": "Fee 30 hari per aplikasi. Merah/oranye: dinilai riba atau maysir; hijau: gas dan pertukaran spot",
+   "src": "Data 21 Okt 2026 · Sumber: DefiLlama; klasifikasi Shariacrypto"
+  },
+  {
+   "type": "scatter_val",
+   "out": "ex_valuasi.png",
+   "points": [
+    {
+     "label": "Aptos (laju kini)",
+     "x": 1720000.0,
+     "y": 726500000.0,
+     "color": "G",
+     "big": true
+    },
+    {
+     "label": "Aptos (12 bln)",
+     "x": 870000.0,
+     "y": 726500000.0,
+     "color": "G",
+     "big": true,
+     "left": true
+    },
+    {
+     "label": "Ethereum",
+     "x": 40500000.0,
+     "y": 306600000000.0,
+     "color": "B"
+    },
+    {
+     "label": "Solana",
+     "x": 42700000.0,
+     "y": 63500000000.0,
+     "color": "Y"
+    },
+    {
+     "label": "NEAR",
+     "x": 1060000.0,
+     "y": 7000000000.0,
+     "color": "O"
+    },
+    {
+     "label": "Sui",
+     "x": 9000.0,
+     "y": 4300000000.0,
+     "color": "R"
+    }
+   ],
+   "title": "Dari sisi pendapatan holder, APT termurah di antara L1 pembanding",
+   "sub": "Market cap ÷ pendapatan holder per tahun = lama balik modal; makin ke kanan-bawah, makin murah",
+   "src": "Data 21–22 Okt 2026 · Sumber: DefiLlama, CoinGecko; hitungan Shariacrypto (est.)"
+  },
+  {
+   "type": "fan",
+   "out": "ex_kipas.png",
+   "price": 0.8222,
+   "expected": 1.019,
+   "zone": [
+    0.73,
+    0.78
+   ],
+   "ylim": [
+    0.3,
+    1.7
+   ],
+   "xticks": [
+    "Okt 26",
+    "Jan 27",
+    "Apr 27",
+    "Jul 27",
+    "Okt 27"
+   ],
+   "scenarios": [
+    {
+     "name": "Optimis",
+     "target": 1.531,
+     "prob": 0.2,
+     "color": "G"
+    },
+    {
+     "name": "Dasar",
+     "target": 1.095,
+     "prob": 0.55,
+     "color": "B"
+    },
+    {
+     "name": "Pesimis",
+     "target": 0.445,
+     "prob": 0.25,
+     "color": "R"
+    }
+   ],
+   "title": "Rasio Untung-Rugi 3,1×: potensi naik tiga kali potensi turun",
+   "sub": "Harga akhir 12 bulan per skenario; tebal garis = peluang. Bukan jalur harga",
+   "src": "Peluang: Pandangan Pasar Shariacrypto Okt 2026 · beta 1,32 · hitungan Shariacrypto"
+  },
+  {
+   "type": "projection",
+   "out": "ex_proyeksi.png",
+   "start_year": 2026,
+   "start_supply": 1209,
+   "cap": 2100,
+   "cap_label": "Batas 2,1 miliar APT",
+   "ydiv": 1000,
+   "ysuf": " M",
+   "lines": [
+    {
+     "label": "Aturan lama",
+     "net_per_year": 60,
+     "color": "MUT",
+     "ls": "--",
+     "label_x": 2036
+    },
+    {
+     "label": "Staking naik",
+     "net_per_year": 29,
+     "color": "O",
+     "label_x": 2050
+    },
+    {
+     "label": "Laju kini",
+     "net_per_year": 16,
+     "color": "Y",
+     "label_x": 2068
+    },
+    {
+     "label": "P2 tercapai",
+     "net_per_year": 12,
+     "color": "B",
+     "label_x": 2086
+    },
+    {
+     "label": "Dibakar ≥ APT baru",
+     "net_per_year": 0,
+     "color": "G",
+     "label_x": 2080
+    }
+   ],
+   "title": "Batas 2,1 miliar baru “menggigit” ±56 tahun lagi pada laju kini",
+   "sub": "Suplai total APT (miliar) bila suplai bersih per tahun tetap",
+   "src": "Data s.d. 22 Okt 2026 · Sumber: dasbor suplai Aptos, Blockworks Research; hitungan Shariacrypto (est.)"
+  },
+  {
+   "type": "breakeven",
+   "out": "ex_impas.png",
+   "issuance_per_year": 19400000.0,
+   "burn_per_tx": 0.00058,
+   "supply": 1209000000.0,
+   "tx_now": 9100000.0,
+   "label": "Aturan kini (imbalan 2,6%, gas 10×)",
+   "old": {
+    "issuance_per_year": 43000000.0,
+    "burn_per_tx": 5.8e-05,
+    "label": "Aturan lama (imbalan 5,19%, gas 1×)"
+   },
+   "bands": [
+    {
+     "x0": 30000000.0,
+     "x1": 50000000.0,
+     "text": "Order book\nseukuran Lighter",
+     "color": "Y"
+    },
+    {
+     "x0": 70000000.0,
+     "x1": 170000000.0,
+     "text": "Seukuran\nHyperliquid",
+     "color": "B"
+    }
+   ],
+   "title": "APT baru menyusut bila transaksi naik ±10× dari sekarang",
+   "sub": "APT baru ±19,4 juta/th; dibakar ±0,00058 APT per transaksi (campuran transaksi kini)",
+   "src": "Data s.d. 27 Sep 2026 · Sumber: Blockworks Research (parameter), hitungan Shariacrypto"
+  },
+  {
+   "type": "supplymap",
+   "out": "ex_peta.png",
+   "cap": 2100,
+   "cap_label": "BATAS SUPLAI 2.100 juta APT (Proposal #183)",
+   "h": 5.6,
+   "notes_x": 1260,
+   "rows": [
+    [
+     {
+      "w": 1209,
+      "label": "SUDAH ADA: 1.209 juta",
+      "sub": "genesis + imbalan staking − dibakar",
+      "color": "B"
+     },
+     {
+      "w": 891,
+      "label": "BELUM DICETAK: 891 juta",
+      "sub": "ruang imbalan staking",
+      "color": "MUT",
+      "alpha": 0.06
+     }
+    ],
+    [
+     {
+      "w": 874,
+      "label": "BEREDAR: 874 juta",
+      "sub": "sudah terbuka",
+      "color": "G"
+     },
+     {
+      "w": 335,
+      "label": "BELUM TERBUKA",
+      "sub": "335 juta",
+      "color": "Y",
+      "alpha": 0.08
+     }
+    ],
+    [
+     {
+      "w": 210,
+      "label": "210 juta",
+      "color": "R",
+      "start": 874,
+      "alpha": 0.2
+     },
+     {
+      "w": 119,
+      "label": "±119",
+      "color": "O",
+      "alpha": 0.2
+     },
+     {
+      "w": 6,
+      "label": "",
+      "color": "B",
+      "alpha": 0.6
+     }
+    ]
+   ],
+   "side_notes": [
+    {
+     "text": "210 juta dikunci permanen yayasan (bagian dari 335 juta)",
+     "color": "R"
+    },
+    {
+     "text": "±119 juta jatah komunitas & yayasan, s.d. 2032",
+     "color": "O"
+    },
+    {
+     "text": "±7 juta cliff terakhir investor & tim",
+     "color": "B"
+    }
+   ],
+   "title": "Dari 2,1 miliar APT, hanya 874 juta yang benar-benar beredar",
+   "sub": "Peta suplai dalam juta APT; 210 juta yang dikunci adalah bagian dari jatah yang belum terbuka",
+   "src": "Data s.d. 26 Sep 2026 · Sumber: Blockworks Research, dasbor suplai Aptos; digambar ulang Shariacrypto"
+  }
+ ]
+}

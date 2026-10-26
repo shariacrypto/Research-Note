@@ -1,0 +1,71 @@
+metrik,nilai,satuan,sumber,waktu_data
+harga_APT,0.8222,USD,CoinGecko coins/aptos,2026-10-22 ±08.30 WIB
+market_cap,726484836,USD,CoinGecko,2026-10-22 ±08.30 WIB
+fdv_total_supply,995542085,USD,CoinGecko (total supply 1.21 miliar),2026-10-22
+volume_24j,75184461,USD,CoinGecko,2026-10-22
+suplai_beredar,883277000,APT,CoinGecko/CoinMarketCap (883.28 juta),2026-10-22
+suplai_total,1210000000,APT,CoinGecko/CoinMarketCap/aptosnetwork.com apt-supply (1.2 miliar),2026-10-21
+batas_suplai_maks,2100000000,APT,AIP-140 / proposal #183 (Everstake),2026-03
+harga_APT_cek_silang,0.8415,USD,CoinMarketCap,2026-10-22
+market_cap_cek_silang,743320000,USD,CoinMarketCap (selisih 2.3%),2026-10-22
+fdv_max_supply_CMC,1760000000,USD,CoinMarketCap (2.1 miliar × harga),2026-10-22
+peringkat_MC,91,peringkat,CoinGecko (CMC #75),2026-10-22
+rekor_tertinggi,19.90,USD,CoinMarketCap (30 Jan 2023),2023-01-30
+rekor_terendah,0.5129,USD,CoinMarketCap (30 Agu 2026),2026-08-30
+harga_52mgg_lalu,3.5824,USD,Yahoo Finance APT21794-USD mingguan (20 Okt 2025),2025-10-20
+return_52mgg_APT,-76.9,%,hitungan sendiri Yahoo mingguan,2026-10-19
+return_52mgg_BTC,-27.5,%,hitungan sendiri Yahoo mingguan,2026-10-19
+beta_52mgg_vs_BTC,1.32,rasio,hitungan sendiri regresi return mingguan 52 minggu (korelasi 0.67),2026-10-19
+volatilitas_tahunan_APT,87,%,hitungan sendiri (log return mingguan),2026-10-19
+fee_chain_24j,4991,USD,DefiLlama chain/aptos,2026-10-21
+fee_chain_7h,33425,USD,DefiLlama fees/chain/aptos,2026-10-21
+fee_chain_30h,141377,USD,DefiLlama fees/chain/aptos,2026-10-21
+fee_chain_disetahunkan,1720087,USD,hitungan sendiri 30h×365/30 (est.),2026-10-21
+fee_chain_12bln_est,866000,USD,hitungan sendiri dari laju burn sebelum/sesudah Maret 2026 (est.),2026-10-21
+burn_30h,174210,APT,aptosnetwork.com/apt-supply,2026-10-21
+burn_kumulatif,2000000,APT,aptosnetwork.com/apt-supply (±1.9 juta per Crypto Briefing 16 Okt),2026-10-21
+emisi_staking_bulanan,1500000,APT,aptosnetwork.com/apt-supply,2026-10-21
+suplai_baru_bersih_bulanan,1330000,APT,hitungan sendiri 1.5 juta − 174 ribu (dashboard menulis ±1.4 juta),2026-10-21
+imbal_staking,2.6,%/th,Aptos Foundation / AIP (turun dari 5.19%),2026-03
+di_stake,763000000,APT,Everstake (Aptoscan Sep 2026; versi lain 802 juta),2026-09
+dikunci_permanen_yayasan,210000000,APT,Aptos Foundation Feb 2026 / Crypto Briefing 14 Sep 2026,2026-09-14
+unlock_bulanan_sebelum,11310000,APT,Everstake,2026-09-30
+unlock_bulanan_sesudah,4540000,APT,Everstake,2026-09-30
+unlock_12bln_kedepan,54500000,APT,Everstake (komunitas & yayasan; versi Tokenpost ±21 juta),2026-09-30
+sisa_belum_terbuka,331690000,APT,Everstake mengutip DropsTab,2026-09-30
+alokasi_orang_dalam,32.48,% suplai awal,Everstake (kontributor inti 19% + investor 13.48%),2022-10
+tvl_defi,43230000,USD,DefiLlama chain/aptos,2026-10-21
+tvl_defi_okt2025,710000000,USD,Everstake (mid-Okt 2025; definisi bisa termasuk liquid staking),2025-10-16
+stablecoin_mcap,948980000,USD,DefiLlama,2026-10-21
+stablecoin_ath,1950000000,USD,Aptos Annual Report (Apr 2025–Mei 2026) via akun X Aptos,2026-05
+rwa_aum,761340000,USD,DefiLlama RWA Active AUM,2026-10-21
+volume_dex_24j,5500000,USD,DefiLlama,2026-10-21
+volume_perp_24j,53610000,USD,DefiLlama,2026-10-21
+volume_perp_7h,396620000,USD,DefiLlama,2026-10-21
+app_fee_24j,41060,USD,DefiLlama,2026-10-21
+alamat_aktif_24j,30831,alamat,DefiLlama (definisi DefiLlama),2026-10-21
+transaksi_24j,14350000,transaksi,DefiLlama (dashboard Aptos: 9.7 juta),2026-10-21
+fee_30h_Securitize,623417,USD,DefiLlama fees/chain/aptos,2026-10-21
+fee_30h_Decibel,559118,USD,DefiLlama fees/chain/aptos,2026-10-21
+fee_30h_Echelon,63782,USD,DefiLlama fees/chain/aptos,2026-10-21
+transaksi_harian_okt2025,3097273,transaksi,Everstake,2025-10
+validator,149,validator,Chainspect (data mungkin tertinggal),2026-10
+nakamoto_coefficient,18,entitas,Chainspect (data mungkin tertinggal),2026-10
+open_interest_binance,21220000,USD,Blockchain.News (Binance futures),2026-10-21 08.00 UTC
+funding_8jam,0.01,%,Blockchain.News (Binance),2026-10-21
+ETH_mc,306612000000,USD,DefiLlama,2026-10-21
+ETH_revenue_24j_burn,110975,USD,DefiLlama,2026-10-21
+SOL_mc,63471000000,USD,DefiLlama,2026-10-21
+SOL_revenue_24j,116918,USD,DefiLlama,2026-10-21
+SUI_mc,4303000000,USD,DefiLlama,2026-10-21
+SUI_revenue_24j,24.8,USD,DefiLlama,2026-10-21
+SUI_tvl,515810000,USD,DefiLlama,2026-10-21
+NEAR_mc,7001000000,USD,DefiLlama,2026-10-21
+NEAR_revenue_24j,2897,USD,DefiLlama,2026-10-21
+BTC_harga_acuan,82440,USD,Pandangan_Pasar_2026-10,2026-10-19
+BTC_return_optimis_dasar_pesimis,57.7/21.3/-27.2,%,Pandangan_Pasar_2026-10,2026-10-20
+HalalScreener_APT,85,skor (Halal grade A),halalscreener.app,2026-10-21
+skor_fundamental,6.73,skor 1-10,hitungan sendiri rubrik v3.1 (est.),2026-10-22
+skor_syariah,74,skor 0-100,hitungan sendiri 4 lapis (est.),2026-10-22
+harga_perkiraan,1.0193,USD,hitungan sendiri,2026-10-22
+rasio_untung_rugi,3.09,rasio,hitungan sendiri,2026-10-22

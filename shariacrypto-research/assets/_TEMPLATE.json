@@ -1,0 +1,15 @@
+{
+  "ticker": "XXX",
+  "nama": "Nama Proyek",
+  "modul": "isi dari Coverage Universe (kolom Modul sektor)",
+  "coingecko_id": "id-coingecko (lihat URL coingecko.com/en/coins/<id>)",
+  "cmc_slug": "slug-cmc (lihat URL coinmarketcap.com/currencies/<slug>)",
+  "binance_symbol": "XXXUSDT",
+  "defillama": {"chain": "NamaRantai atau null untuk token aplikasi", "fees_slug": "slug-protokol"},
+  "dexscreener": null,
+  "github": ["org/repo-inti"],
+  "suplai_manual": {"waktu": "YYYY-MM-DD", "batas_maks": null, "komponen": {}},
+  "syariah_kategori": {},
+  "syariah_override": {},
+  "pembanding": [{"ticker": "PEMIMPIN", "coingecko_id": "id", "fees_slug": "slug"}]
+}
