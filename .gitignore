@@ -1,0 +1,12 @@
+# Rahasia
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Keluaran run
+shariacrypto-research/data/out/
